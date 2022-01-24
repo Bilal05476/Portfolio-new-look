@@ -15,10 +15,8 @@
   align-items: center;
   justify-content: space-between;
   padding: 30px 200px;
-  /* background-image: linear-gradient(to top, #181d16, #050a07); */
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
-  backdrop-filter: blur(10px);
   width: 80%; /* Full width */
   overflow: hidden;
 }

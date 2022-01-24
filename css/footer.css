@@ -1,0 +1,22 @@
+.footer {
+  background-color: #212121;
+  padding: 1rem 10rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #ccc;
+  font-size: 1rem;
+}
+.footer .social-icons-section a {
+  background-color: transparent;
+  border: 2px solid var(--themeColor--);
+  padding: 0.5rem;
+  margin: auto 0.5rem;
+  border-radius: 50%;
+  color: var(--themeColor--);
+  text-decoration: none;
+}
+.footer .social-icons-section a:hover {
+  color: #212121;
+  background-color: var(--themeColor--);
+}
