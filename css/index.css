@@ -20,6 +20,9 @@
   width: 80%; /* Full width */
   overflow: hidden;
 }
+.navbar.blur {
+  backdrop-filter: blur(10px);
+}
 .navbar .logo {
   font-size: 1.3rem;
   color: #fff;

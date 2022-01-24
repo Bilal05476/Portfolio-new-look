@@ -11,7 +11,7 @@
       rgba(1, 2, 1, 0.87),
       rgba(11, 19, 7, 0.856)
     ),
-    url("../img/bg-1.jpg");
+    url("../img/bg-2.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -20,19 +20,24 @@
 .jumbotron .welcome {
   font-style: italic;
   font-weight: 300;
+  text-shadow: 0.02rem 0.02rem 0.2rem var(--themeColor--);
 }
 .jumbotron .slogan {
   font-weight: 600;
   text-transform: uppercase;
   font-size: 2rem;
   margin: 1rem;
+  text-shadow: 0.02rem 0.02rem 0.3rem var(--themeColor--);
 }
 .jumbotron .description {
   font-weight: 300;
   margin-bottom: 2rem;
+  text-shadow: 0.02rem 0.02rem 0.2rem var(--themeColor--);
 }
 .jumbotron .description span {
   font-weight: 600;
+  text-shadow: 0.02rem 0.02rem 0.2rem #212121;
+
   color: var(--themeColor--);
 }
 .jumbotron .jumbo-button,
