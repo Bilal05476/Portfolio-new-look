@@ -41,16 +41,20 @@
 .team-members-section .member-social-networks .social-link {
   text-align: center;
   text-decoration: none;
-  padding: 0.5rem;
   border-radius: 50%;
-  border: 2px solid var(--themeColor--);
-  color: var(--themeColor--);
+  color: #ccc;
   background-color: #323232;
   margin: 0.2rem 0.3rem;
 }
-.team-members-section .member-social-networks .social-link:hover {
-  background-color: var(--themeColor--);
-  color: #323232;
+
+.social-link .fab,
+.social-link .far {
+  font-size: 1.5rem;
+}
+.social-link .fab:hover,
+.social-link .far:hover {
+  transition: 0.2s ease-in-out;
+  color: var(--themeColor--);
 }
 .member-content .member-img {
   width: 150px;

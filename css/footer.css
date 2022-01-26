@@ -9,14 +9,8 @@
 }
 .footer .social-icons-section a {
   background-color: transparent;
-  border: 2px solid var(--themeColor--);
-  padding: 0.5rem;
   margin: auto 0.5rem;
   border-radius: 50%;
-  color: var(--themeColor--);
+  color: #ccc;
   text-decoration: none;
-}
-.footer .social-icons-section a:hover {
-  color: #212121;
-  background-color: var(--themeColor--);
 }
