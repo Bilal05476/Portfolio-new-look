@@ -55,14 +55,14 @@
 .about-content-right,
 .about-content-last {
   text-align: left;
-  margin-left: 39.7rem;
+  margin-left: 39.9rem;
 }
 .about-content-right .about-text {
   margin-left: 2rem;
 }
 .about-content-last .about-text {
-  width: 80px;
-  height: 80px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   display: flex;
   align-items: center;

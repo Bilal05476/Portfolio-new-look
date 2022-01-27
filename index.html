@@ -10,6 +10,12 @@
       integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/jumbotron.css" />
     <link rel="stylesheet" href="css/services.css" />
@@ -24,26 +30,30 @@
   </head>
   <body>
     <!--Navbar-->
-    <nav class="navbar">
-      <div class="logo">Bilal Ahmed</div>
-      <div class="menu-bar">
-        <a href="#my-services" class="menu">Services</a>
-        <a href="#my-portfolio" class="menu">Portfolio</a>
-        <a href="#about-me" class="menu">About</a>
-        <a href="#my-skills" class="menu">Skills</a>
-        <a href="#my-team" class="menu">Team</a>
-        <a href="#contact" class="menu">Contact</a>
+    <nav class="my-navbar">
+      <div class="logo">
+        <a href="#top" class="logo-link"> < Bilal Ahmed /> </a>
+      </div>
+      <div class="my-menu-bar">
+        <a href="#my-services" class="my-menu">Services</a>
+        <a href="#my-portfolio" class="my-menu">Portfolio</a>
+        <a href="#about-me" class="my-menu">About</a>
+        <a href="#my-skills" class="my-menu">Skills</a>
+        <a href="#my-team" class="my-menu">Team</a>
+        <a href="#contact" class="my-menu">Contact</a>
       </div>
     </nav>
 
     <!--Jumbotron-->
-    <div class="jumbotron" id="top">
+    <div class="my-jumbotron" id="top">
       <p class="welcome">Welcome To My Portfolio!</p>
       <strong class="slogan">Provide Digital Solution for your Business</strong>
       <p class="description">
         A Self thought <span>FREELANCE Website Developer</span>.
       </p>
-      <button class="jumbo-button">Contact Now</button>
+      <a href="#contact">
+        <button class="jumbo-button">Contact Now</button>
+      </a>
     </div>
 
     <!--Services-->
@@ -251,7 +261,9 @@
           <div class="member-social-networks">
             <a class="social-link" href="#"><i class="fab fa-facebook"></i></a>
             <a class="social-link" href="#"><i class="fab fa-instagram"></i></a>
-            <a class="social-link" href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a class="social-link" href="#"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
             <a class="social-link" href="#"><i class="far fa-globe"></i></a>
           </div>
         </div>
@@ -262,7 +274,9 @@
           <div class="member-social-networks">
             <a class="social-link" href="#"><i class="fab fa-facebook"></i></a>
             <a class="social-link" href="#"><i class="fab fa-instagram"></i></a>
-            <a class="social-link" href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a class="social-link" href="#"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
             <a class="social-link" href="#"><i class="far fa-globe"></i></a>
           </div>
         </div>
@@ -273,7 +287,9 @@
           <div class="member-social-networks">
             <a class="social-link" href="#"><i class="fab fa-facebook"></i></a>
             <a class="social-link" href="#"><i class="fab fa-instagram"></i></a>
-            <a class="social-link" href="#"><i class="fab fa-linkedin-in"></i></a>
+            <a class="social-link" href="#"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
             <a class="social-link" href="#"><i class="far fa-globe"></i></a>
           </div>
         </div>
@@ -320,6 +336,21 @@
       </div>
     </div>
 
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
     <script src="js/script.js"></script>
   </body>
 </html>
