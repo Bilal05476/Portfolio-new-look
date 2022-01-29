@@ -32,6 +32,9 @@
   margin: auto 10px;
   text-decoration: none;
 }
+.my-navbar .my-menu-bar .my-menu:hover {
+  color: var(--themeColor--);
+}
 
 /* ScrollBar */
 

@@ -1,5 +1,4 @@
 .contact-set {
-  /* background-color: #424242; */
   background-image: url("../img/bg-map.jpg");
   background-position: center;
   background-repeat: no-repeat;
@@ -26,30 +25,29 @@
   display: flex;
   margin-top: 2rem;
 }
-.contact-set .contact-section .left-section {
+.contact-set .contact-section .left-section,
+.contact-set .contact-section .right-section {
   display: flex;
   flex-direction: column;
-  margin-right: 5rem;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-set .contact-section .right-section {
+  margin-left: 1rem;
 }
 .contact-set .contact-section .left-section input,
 .contact-set .contact-section .right-section textarea {
-  margin: 1rem;
   margin-right: 6rem;
-  margin-bottom: 1.32rem;
   margin-top: 0;
   padding: 1rem;
   padding-left: 1.2rem;
   padding-right: 2rem;
-  width: 100%;
+  width: 100% !important;
   border-radius: 4px;
   border: 2px solid #424242;
   outline: none !important;
   background-color: #323232;
   color: #ccc;
-}
-.contact-set .contact-section .right-section textarea {
-  margin-bottom: 0;
-  margin-right: 7rem;
 }
 
 .contact-set .contact-section .left-section input::placeholder,
