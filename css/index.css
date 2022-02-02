@@ -36,6 +36,39 @@
   color: var(--themeColor--);
 }
 
+.my-navbar.small {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  .my-navbar.large {
+    display: none;
+  }
+  .my-navbar.small {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 30px;
+  }
+  .my-navbar.small .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .my-navbar.small .logo .logo-link {
+    font-size: 2rem;
+    text-decoration: none;
+  }
+  .my-navbar.small .my-menu-bar {
+    display: none;
+  }
+  .my-navbar.small .my-menu-bar .my-menu {
+    display: flex;
+    flex-direction: column;
+    margin: 10px auto;
+  }
+}
+
 /* ScrollBar */
 
 /* width */
