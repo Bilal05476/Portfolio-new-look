@@ -1,0 +1,25 @@
+.navbar {
+  /* display: flex;
+  align-items: center;
+  justify-content: space-between; */
+  padding: 30px 200px;
+  /* position: fixed; Set the navbar to fixed position */
+  /* top: 0;  Position the navbar at the top of the page */
+  /* width: 100%; Full width */
+  /* overflow: hidden; */
+}
+
+.navbar .logo .logo-link {
+  font-size: 1.9rem;
+  text-decoration: none;
+  font-family: "Dancing Script", cursive;
+  color: #fff;
+}
+.navbar .my-menu-bar .my-menu {
+  color: #fff;
+  margin: auto 10px;
+  text-decoration: none;
+}
+.navbar .my-menu-bar .my-menu:hover {
+  color: var(--themeColor--);
+}

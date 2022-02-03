@@ -1,23 +1,26 @@
-import "./App.css";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Footer from "./components/Footer";
+import Jumbo from "./components/Jumbo";
+import Navbar from "./components/Navbar";
+import Port from "./components/Port";
+import Services from "./components/Services";
+import Skills from "./components/Skills";
+import Team from "./components/Team";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Navbar />
+      <Jumbo />
+      <Services />
+      <Port />
+      <About />
+      <Skills />
+      <Team />
+      <Contact />
+      <Footer />
     </div>
   );
-}
-
+};
 export default App;
