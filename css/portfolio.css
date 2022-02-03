@@ -41,3 +41,12 @@
 .portfolio-project .portfolio-content {
   padding: 1rem 3rem;
 }
+
+@media (max-width: 992px) {
+  .portfolio-project .portfolio-section {
+    flex-direction: column;
+  }
+  .portfolio-project .portfolio-card {
+    width: 95%;
+  }
+}

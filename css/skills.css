@@ -24,10 +24,10 @@
   color: #ccc;
 }
 
-.skills-section .skill-content {
-  margin-right: 2rem;
-  margin-left: 2rem;
-}
+/* .skills-section .skill-content {
+  margin-right: 1rem;
+  margin-left: 1rem;
+} */
 .skills-section .skill-content:hover {
   color: var(--themeColor--);
   cursor: pointer;

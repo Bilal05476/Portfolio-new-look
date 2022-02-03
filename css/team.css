@@ -64,3 +64,9 @@
   margin-bottom: 1rem;
   box-shadow: 0.1rem 0.4rem 0.3rem #212121;
 }
+
+@media (max-width: 992px) {
+  .team-members-section {
+    flex-direction: column;
+  }
+}
