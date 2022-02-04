@@ -21,11 +21,12 @@
 .my-jumbotron .welcome {
   font-style: italic;
   font-weight: 300;
-  text-shadow: 0.02rem 0.02rem 0.2rem var(--themeColor--);
+  text-shadow: 0.02rem 0.02rem 0.3rem var(--themeColor--);
 }
 .my-jumbotron .slogan {
   font-weight: 600;
   text-transform: uppercase;
+  text-align: center;
   font-size: 2rem;
   margin: 1rem;
   text-shadow: 0.02rem 0.02rem 0.3rem var(--themeColor--);

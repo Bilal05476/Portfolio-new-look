@@ -32,7 +32,12 @@ const Portfolio = () => {
                 <br />
                 <small>
                   Features:
-                  <strong> {pro.projectFeatures}</strong>{" "}
+                  <ul>
+                    {" "}
+                    {pro.projectFeatures.map((item, ind) => (
+                      <li key={ind}>{item}</li>
+                    ))}
+                  </ul>
                 </small>
                 <br />
                 <br />

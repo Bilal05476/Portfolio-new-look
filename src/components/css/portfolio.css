@@ -46,7 +46,12 @@
 .project-visit:hover {
   color: var(--themeColor--);
 }
-
+.portfolio-heading {
+  font-size: 1.2rem;
+}
+.portfolio-desc {
+  font-size: 0.8rem;
+}
 @media (max-width: 992px) {
   .portfolio-project {
     padding: 20px;

@@ -32,11 +32,16 @@
   margin-bottom: 6rem;
 }
 .about-text h3 {
-  font-weight: 600;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+.about-text .hr {
+  background-color: var(--themeColor--);
 }
 .about-text p {
   font-weight: 300;
   margin-top: 1rem;
+  text-align: justify;
 }
 .about-content-left .about-text {
   margin-right: 2rem;
@@ -86,5 +91,19 @@
   .about-content-right {
     flex-direction: column;
     border-bottom: 1px solid #565656;
+  }
+  .about-content-left .about-text {
+    margin-right: 0;
+    text-align: center;
+  }
+  .about-content-right .about-text {
+    margin-left: 0;
+    text-align: center;
+  }
+  .about-content-left img,
+  .about-content-right img,
+  .about-content-right .about-text,
+  .about-content-last .about-text {
+    margin-bottom: 2.5rem;
   }
 }

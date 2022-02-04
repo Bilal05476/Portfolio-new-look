@@ -1,4 +1,5 @@
 import "./css/services.css";
+import service from "./serviceData.json";
 
 const Services = () => {
   return (
@@ -8,36 +9,16 @@ const Services = () => {
         <small>services slogan goes here now!</small>
       </div>
       <div className="services-section">
-        <div className="service-card">
-          <div className="icon">Icon</div>
-          <h4 className="services-heading">E-Commerce</h4>
-          <p className="service-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-            consequatur ex ipsa excepturi quae libero corporis, deleniti ipsam
-            nesciunt ipsum, aut similique dolorum itaque consequuntur. Neque
-            nobis modi hic consequatur!
-          </p>
-        </div>
-        <div className="service-card">
-          <div className="icon">Icon</div>
-          <h4 className="services-heading">E-Commerce</h4>
-          <p className="service-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-            consequatur ex ipsa excepturi quae libero corporis, deleniti ipsam
-            nesciunt ipsum, aut similique dolorum itaque consequuntur. Neque
-            nobis modi hic consequatur!
-          </p>
-        </div>
-        <div className="service-card">
-          <div className="icon">Icon</div>
-          <h4 className="services-heading">E-Commerce</h4>
-          <p className="service-desc">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur
-            consequatur ex ipsa excepturi quae libero corporis, deleniti ipsam
-            nesciunt ipsum, aut similique dolorum itaque consequuntur. Neque
-            nobis modi hic consequatur!
-          </p>
-        </div>
+        {service.map((item, ind) => (
+          <div className="service-card" key={ind}>
+            <div className="icon">
+              <i className={item.serviceIcon}></i>
+            </div>
+            <h4 className="services-heading">{item.serviceName}</h4>
+            <i className="services-tagline">{item.serviceTagLine}</i>
+            <p className="service-desc">{item.serviceDesc}</p>
+          </div>
+        ))}
       </div>
     </div>
   );
