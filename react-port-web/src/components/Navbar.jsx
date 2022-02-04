@@ -1,10 +1,12 @@
+import { useState } from "react";
 import "./css/navbar.css";
 
 const Navbar = () => {
+  const [navIcon, setNavIcon] = useState(false);
   return (
     <nav className="navbar navbar-expand-md fixed-top">
-      <div class="logo">
-        <a href="#top" class="logo-link">
+      <div className="logo">
+        <a href="#top" className="logo-link">
           {"<"}Bilal Ahmed {" />"}
         </a>
       </div>
@@ -16,8 +18,10 @@ const Navbar = () => {
         aria-controls="navbarNavAltMarkup"
         aria-expanded="false"
         aria-label="Toggle navigation"
+        // onClick={() => setNavIcon(!navIcon)}
       >
-        <span className="navbar-toggler-icon"></span>
+        {navIcon && <i class="navbar-toggler-icon fas fa-times"></i>}
+        {!navIcon && <i class="navbar-toggler-icon fas fa-bars"></i>}
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav ml-auto my-menu-bar">

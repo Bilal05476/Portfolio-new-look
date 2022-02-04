@@ -1,15 +1,15 @@
-import "./css/jumbo.css";
+import "./css/jumbotron.css";
 
 const Jumbo = () => {
   return (
-    <div class="my-jumbotron" id="top">
-      <p class="welcome">Welcome To My Portfolio!</p>
-      <strong class="slogan">Provide Digital Solution for your Business</strong>
-      <p class="description">
+    <div className="my-jumbotron" id="top">
+      <p className="welcome">Welcome To My Portfolio!</p>
+      <strong className="slogan">Provide Digital Solution for your Business</strong>
+      <p className="description">
         A Self thought <span>FREELANCE Website Developer</span>.
       </p>
       <a href="#contact">
-        <button class="jumbo-button">Contact Now</button>
+        <button className="jumbo-button">Contact Now</button>
       </a>
     </div>
   );

@@ -1,0 +1,26 @@
+[
+    {
+        "projectName": "Linkedin Clone",
+        "projectDesc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed repudiandae cupiditate qui accusantium, voluptates architecto impedit pariatur saepe in exercitationem.",
+        "projectPurpose": "Multi-User Application",
+        "projectFeatures": ["Hello", "World"],
+        "projectImg": "bg-2.jpg",
+        "projectVisit": "jdsnd"
+    },
+    {
+        "projectName": "Courses Portal",
+        "projectDesc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed repudiandae cupiditate qui accusantium, voluptates architecto impedit pariatur saepe in exercitationem.",
+        "projectPurpose": "Portal Application",
+        "projectFeatures": ["Hello", "World"],
+        "projectImg": "bg-2.jpg",
+        "projectVisit": "jdsnd"
+    },
+    {
+        "projectName": "Organic Store",
+        "projectDesc": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed repudiandae cupiditate qui accusantium, voluptates architecto impedit pariatur saepe in exercitationem.",
+        "projectPurpose": "E-Commerce Application",
+        "projectFeatures": ["Hello", "World"],
+        "projectImg": "bg-2.jpg",
+        "projectVisit": "jdsnd"
+    }
+]
