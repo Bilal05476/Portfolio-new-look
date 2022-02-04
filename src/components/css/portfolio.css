@@ -32,21 +32,31 @@
   flex-direction: column;
   align-items: center;
   width: 33.3%;
-  /* padding: 3rem 1rem; */
   margin-top: 30px;
   background-color: #424242;
   margin: 1rem;
   border-radius: 5px;
 }
 .portfolio-project .portfolio-content {
-  padding: 1rem 3rem;
+  padding: 1rem 2rem;
+}
+.project-visit {
+  color: var(--themeColor--);
+}
+.project-visit:hover {
+  color: var(--themeColor--);
 }
 
 @media (max-width: 992px) {
+  .portfolio-project {
+    padding: 20px;
+    padding-top: 130px;
+  }
   .portfolio-project .portfolio-section {
     flex-direction: column;
   }
   .portfolio-project .portfolio-card {
-    width: 95%;
+    width: 100%;
+    margin: 1rem auto;
   }
 }

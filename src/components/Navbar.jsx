@@ -1,10 +1,32 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import "./css/navbar.css";
 
 const Navbar = () => {
   const [navIcon, setNavIcon] = useState(false);
+  const [navbarBackground, setNavbarBackground] = useState(false);
+
+  // Change Navbar Background
+  const changeBackground = () => {
+    if (window.scrollY >= 66) {
+      setNavbarBackground(true);
+    } else {
+      setNavbarBackground(false);
+    }
+  };
+
+  useEffect(() => {
+    changeBackground();
+    // adding the event when scroll change background
+    window.addEventListener("scroll", changeBackground);
+  });
+
   return (
-    <nav className="navbar navbar-expand-md fixed-top">
+    <nav
+      className={`navbar navbar-expand-md fixed-top 
+      ${navbarBackground ? "scrollNavbar" : ""} ${
+        navIcon ? "blurryBack" : ""
+      }`}
+    >
       <div className="logo">
         <a href="#top" className="logo-link">
           {"<"}Bilal Ahmed {" />"}
@@ -18,10 +40,11 @@ const Navbar = () => {
         aria-controls="navbarNavAltMarkup"
         aria-expanded="false"
         aria-label="Toggle navigation"
-        // onClick={() => setNavIcon(!navIcon)}
+        onClick={() => setNavIcon(!navIcon)}
       >
-        {navIcon && <i class="navbar-toggler-icon fas fa-times"></i>}
-        {!navIcon && <i class="navbar-toggler-icon fas fa-bars"></i>}
+        <i
+          className={`navbar-toggler-icon fa fa-${navIcon ? "times" : "bars"}`}
+        ></i>
       </button>
       <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
         <div className="navbar-nav ml-auto my-menu-bar">

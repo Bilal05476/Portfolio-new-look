@@ -24,10 +24,6 @@
   color: #ccc;
 }
 
-/* .skills-section .skill-content {
-  margin-right: 1rem;
-  margin-left: 1rem;
-} */
 .skills-section .skill-content:hover {
   color: var(--themeColor--);
   cursor: pointer;
@@ -40,4 +36,11 @@
 }
 .skills-section .skill-content .skill-name {
   font-size: 1rem;
+}
+
+@media (max-width: 992px) {
+  .skills {
+    padding: 20px;
+    padding-top: 130px;
+  }
 }

@@ -1,0 +1,36 @@
+[
+    {
+        "memberName" : "Sheraz Ahmed",
+        "memberDesignation" : "Graphic Designer",
+        "memberImg" : "bg-2.jpg",
+        "memberLinks" : [
+            "facebook",
+            "instagram",
+            "linkedin",
+            "website"
+        ]
+    },
+    {
+        "memberName" : "Krish Kanojia",
+        "memberDesignation" : "Application Developer",
+        "memberImg" : "bg-2.jpg",
+        "memberLinks" : [
+            "facebook.krish",
+            "instagram",
+            "linkedin",
+            "website"
+        ]
+    },
+    {
+        "memberName" : "Sheikh Khurram",
+        "memberDesignation" : "Social Media Marketer",
+        "memberImg" : "bg-2.jpg",
+        "memberLinks" : [
+            "facebook.khuramm",
+            "instagram",
+            "linkedin",
+            "website"
+        ]
+    }
+
+]

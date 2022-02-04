@@ -69,4 +69,8 @@
   .team-members-section {
     flex-direction: column;
   }
+  .team {
+    padding: 20px;
+    padding-top: 130px;
+  }
 }

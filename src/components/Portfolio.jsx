@@ -35,8 +35,14 @@ const Portfolio = () => {
                   <strong> {pro.projectFeatures}</strong>{" "}
                 </small>
                 <br />
-                <a href={pro.projectVisit} target="blank">
-                  <i className="far fa-globe"></i> visit
+                <br />
+                <a
+                  title="Visit Project"
+                  className="project-visit"
+                  href={pro.projectVisit}
+                  target="blank"
+                >
+                  <i className="far fa-globe"></i> Try
                 </a>
               </div>
             </div>

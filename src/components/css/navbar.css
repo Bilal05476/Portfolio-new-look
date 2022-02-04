@@ -1,5 +1,15 @@
 .navbar {
-  padding: 30px 200px;
+  padding: 30px 150px;
+}
+
+.navbar.scrollNavbar {
+  backdrop-filter: blur(10px);
+  padding: 20px !important;
+}
+
+.navbar.blurryBack {
+  padding: 20px !important;
+  background-color: #212121;
 }
 
 .navbar .logo .logo-link {
@@ -33,9 +43,11 @@
   font-size: 1.5rem;
 }
 @media (max-width: 992px) {
-  
+  .navbar {
+    padding: 30px !important;
+  }
   .navbar .my-menu-bar {
-    background: linear-gradient(to top, var(--themeColor--) 0%, #424242 0%);
+    background: linear-gradient(to top, var(--themeColor--) 0%, #282828 0%);
   }
   .navbar .my-menu-bar .my-menu {
     margin: 1rem;

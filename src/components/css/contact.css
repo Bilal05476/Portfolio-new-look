@@ -6,8 +6,7 @@
   color: #fff;
   display: flex;
   flex-direction: column;
-  /* align-items: center; */
-  text-align: center;
+
   padding: 50px;
   border-top: 1px solid #565656;
   padding-top: 130px;
@@ -65,6 +64,11 @@
 }
 
 @media (max-width: 992px) {
+  .contact-set {
+    text-align: center;
+    padding: 20px;
+    padding-top: 130px;
+  }
   .contact-set .contact-section {
     flex-direction: column;
   }

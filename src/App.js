@@ -1,4 +1,4 @@
-// import About from "./components/About";
+import About from "./components/About";
 import Contact from "./components/Contact";
 import Footer from "./components/Footer";
 import Jumbo from "./components/Jumbo";
@@ -15,7 +15,7 @@ const App = () => {
       <Jumbo />
       {/* <Services /> */}
       <Portfolio />
-      {/* <About /> */}
+      <About />
       <Skills />
       <Team />
       <Contact />

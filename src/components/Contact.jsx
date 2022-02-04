@@ -8,12 +8,12 @@ const Contact = () => {
         <small>contact slogan goes here now!</small>
       </div>
       <div className="contact-section row">
-        <div className="left-section col-md-5 col-12">
+        <div className="left-section col-md-4 col-12">
           <input type="text" placeholder="Your Name *" required />
           <input type="email" placeholder="Your Email *" required />
           <input type="text" placeholder="Your Phone *" required />
         </div>
-        <div className="right-section col-md-6 col-12">
+        <div className="right-section col-md-7 col-12">
           <textarea
             rows="9"
             cols="20"
