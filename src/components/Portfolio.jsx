@@ -1,8 +1,9 @@
 import "./css/portfolio.css";
-import projects from "./portfolioProjects";
-import {NavLink} from "react-router-dom";
+import portfolioProjects from "./portfolioProjects";
+import { NavLink } from "react-router-dom";
 
 const Portfolio = () => {
+  const BestProjects = portfolioProjects.slice(0, 3);
 
   return (
     <div className="portfolio-project" id="my-portfolio">
@@ -14,7 +15,7 @@ const Portfolio = () => {
         </small>
       </div>
       <div className="portfolio-section">
-        {projects.map((pro, ind) => (
+        {BestProjects.map((pro, ind) => (
           <div className="portfolio-card" key={ind}>
             <div className="portfolio-image">
               <img src={pro.projectImg} width="100%" alt="portfolio-screen" />

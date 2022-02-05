@@ -55,9 +55,39 @@ const portfolioProjects = [
       "Add to Cart and Wishlist, Checkout Card Animation",
       "CRUD Operations with Firebase",
     ],
-    projectFeaturesWill: [
-     
+    projectFeaturesWill: [],
+    projectImg: eStore,
+    projectVisit: "https://skillsme-81986.web.app/",
+  },
+  {
+    projectName: "Organic E-Store",
+    projectDesc:
+      "The core objective of this project is to develop an e-commerce website application. This project covers a lot of functionality like authentication, single blog, and product open. Add item to a wishlist, add to cart, and card animation on checkout.",
+    projectPurpose: "E-Commerce Web Application",
+    projectFeatures: [
+      "ReactJs, Firebase, Reducer",
+      "Google, Email and Pass Auth",
+      "Mobile Friendly",
+      "Add to Cart and Wishlist, Checkout Card Animation",
+      "CRUD Operations with Firebase",
     ],
+    projectFeaturesWill: [],
+    projectImg: eStore,
+    projectVisit: "https://skillsme-81986.web.app/",
+  },
+  {
+    projectName: "Organic E-Store",
+    projectDesc:
+      "The core objective of this project is to develop an e-commerce website application. This project covers a lot of functionality like authentication, single blog, and product open. Add item to a wishlist, add to cart, and card animation on checkout.",
+    projectPurpose: "E-Commerce Web Application",
+    projectFeatures: [
+      "ReactJs, Firebase, Reducer",
+      "Google, Email and Pass Auth",
+      "Mobile Friendly",
+      "Add to Cart and Wishlist, Checkout Card Animation",
+      "CRUD Operations with Firebase",
+    ],
+    projectFeaturesWill: [],
     projectImg: eStore,
     projectVisit: "https://skillsme-81986.web.app/",
   },
