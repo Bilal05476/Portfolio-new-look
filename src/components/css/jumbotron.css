@@ -43,7 +43,7 @@
 
   color: var(--themeColor--);
 }
-.my-jumbotron .jumbo-button,
+.jumbo-button,
 .contact-set .contact-button button {
   padding: 1rem 2rem;
   background: transparent;
@@ -58,7 +58,7 @@
   border: 2px solid var(--themeColor--);
 }
 
-.my-jumbotron .jumbo-button:hover,
+.jumbo-button:hover,
 .contact-set .contact-button button:hover {
   transform: translateY(2px);
   border-top-left-radius: 0px;

@@ -1,7 +1,9 @@
 import "./css/portfolio.css";
-import projects from "./portfolioProjects.json";
+import projects from "./portfolioProjects";
+import {NavLink} from "react-router-dom";
 
 const Portfolio = () => {
+
   return (
     <div className="portfolio-project" id="my-portfolio">
       <div className="header">
@@ -15,11 +17,7 @@ const Portfolio = () => {
         {projects.map((pro, ind) => (
           <div className="portfolio-card" key={ind}>
             <div className="portfolio-image">
-              <img
-                src={`./img/${pro.projectImg}`}
-                width="100%"
-                alt="portfolio-screen"
-              />
+              <img src={pro.projectImg} width="100%" alt="portfolio-screen" />
             </div>
             <div className="portfolio-content">
               <h4 className="portfolio-heading">{pro.projectName}</h4>
@@ -27,17 +25,29 @@ const Portfolio = () => {
               <div className="project-addons">
                 <small>
                   Purpose:
-                  <strong> {pro.projectPurpose}</strong>{" "}
-                </small>{" "}
+                  <strong> {pro.projectPurpose}</strong>
+                </small>
                 <br />
-                <small>
+                <small className="text-left">
                   Features:
-                  <ul>
-                    {" "}
-                    {pro.projectFeatures.map((item, ind) => (
-                      <li key={ind}>{item}</li>
-                    ))}
-                  </ul>
+                  {pro.projectFeatures.map((item, ind) => (
+                    <>
+                      <li style={{ listStyle: "none" }} key={ind}>
+                        <i className="far fa-check"></i> {item}
+                      </li>
+                    </>
+                  ))}
+                </small>
+                <br />
+                <small className="text-left">
+                  Not Include (Under Dev):
+                  {pro.projectFeaturesWill.map((item, ind) => (
+                    <>
+                      <li style={{ listStyle: "none" }} key={ind}>
+                        <i className="far fa-times text-danger"></i> {item}
+                      </li>
+                    </>
+                  ))}
                 </small>
                 <br />
                 <br />
@@ -54,6 +64,9 @@ const Portfolio = () => {
           </div>
         ))}
       </div>
+      <NavLink to="all-projects">
+        <button className="jumbo-button">All Projects</button>
+      </NavLink>
     </div>
   );
 };

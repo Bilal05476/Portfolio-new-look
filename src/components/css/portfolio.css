@@ -13,10 +13,15 @@
   display: flex;
   margin-top: 2rem;
 }
-
+.portfolio-project .portfolio-card .portfolio-image{
+  overflow: hidden;
+}
 .portfolio-project .portfolio-section .portfolio-image img {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+}
+.portfolio-project .portfolio-section .portfolio-image img:hover{
+  transform: scale(1.1);
 }
 .portfolio-project .header h3 {
   text-transform: uppercase;
@@ -37,6 +42,7 @@
   margin: 1rem;
   border-radius: 5px;
 }
+
 .portfolio-project .portfolio-content {
   padding: 1rem 2rem;
 }
@@ -48,9 +54,13 @@
 }
 .portfolio-heading {
   font-size: 1.2rem;
+  font-weight: 700;
 }
 .portfolio-desc {
   font-size: 0.8rem;
+}
+.project-addons .far {
+  color: var(--themeColor--);
 }
 @media (max-width: 992px) {
   .portfolio-project {

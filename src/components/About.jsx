@@ -1,5 +1,5 @@
 import "./css/about.css";
-
+import ex from "./img/bg-2.jpg";
 const About = () => {
   return (
     <div className="about" id="about-me">
@@ -23,11 +23,11 @@ const About = () => {
               others. But drop early as this did not much excite me.
             </p>
           </div>
-          <img src="./img/bg-2.jpg" alt="about-me" className="about-img" />
+          <img src={ex} alt="about-me" className="about-img" />
         </div>
 
         <div className="about-content-right offset-md-2 col-md-7 col-12">
-          <img src="./img/bg-2.jpg" alt="about-me" className="about-img" />
+          <img src={ex} alt="about-me" className="about-img" />
           <div className="about-text">
             <h3>2019 - Present</h3>
             <h3>
@@ -71,7 +71,7 @@ const About = () => {
               language.
             </p>
           </div>
-          <img src="./img/bg-2.jpg" alt="about-me" className="about-img" />
+          <img src={ex} alt="about-me" className="about-img" />
         </div>
 
         <div className="about-content-last offset-3 offset-md-5 col-md-7 col-2">

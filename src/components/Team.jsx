@@ -1,5 +1,5 @@
 import "./css/team.css";
-import member from "./teamData.json";
+import member from "./teamData";
 
 const Team = () => {
   return (
@@ -11,7 +11,7 @@ const Team = () => {
       <div className="team-members-section">
         {member.map((mem, ind) => (
           <div key={ind} className="member-content">
-            <img src={`./img/${mem.memberImg}`} alt="member" className="member-img" />
+            <img src={mem.memberImg} alt="member" className="member-img" />
             <h4 className="member-name">{mem.memberName}</h4>
             <h4 className="member-designation">{mem.memberDesignation}</h4>
             <div className="member-social-networks">
