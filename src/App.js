@@ -10,6 +10,7 @@ import Team from "./components/Team";
 import AllProjects from "./components/AllProjects";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import Pricing from "./components/Pricing";
 
 const App = () => {
   return (
@@ -18,12 +19,13 @@ const App = () => {
       <Switch>
         <Route exact path="/">
           <Jumbo />
+          <About />
           <Services />
           <Portfolio />
-          <About />
+          <Pricing />
           <Skills />
           <Team />
-          <Contact />
+        <Contact />
         </Route>
         <Route exact path="/all-projects">
           <AllProjects />

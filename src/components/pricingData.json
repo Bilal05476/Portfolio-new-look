@@ -1,0 +1,27 @@
+[
+    {
+        "packageName" : "Individual",
+        "packagePrice": 150,
+        "packageInclude": [
+            "For Individuals, Freelancers",
+            " Portfolio website.",
+            " Responsive website.",
+            " Unique look."
+        ]
+    },
+    {
+        "packageName" : "Standard",
+        "packagePrice": 250,
+        "packageInclude": [
+            " All Individual Benefits, Plus"
+           
+        ]
+    },
+    {
+        "packageName" : "Business",
+        "packagePrice": 500,
+        "packageInclude": [
+           " All Standard Benefits, Plus"
+        ]
+    }
+]

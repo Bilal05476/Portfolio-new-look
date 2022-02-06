@@ -23,9 +23,10 @@ const Footer = () => {
           <i title="Scroll Top" className="far fa-arrow-up"></i>
         </a>
       </div>
-      <div className="right-section">
+      <div className="right-section text-center">
         <small>
-          Copyright &copy; 2021, Made with
+          Copyright &copy; 2021,
+          <br /> Made with
           <i className="mx-1 text-danger fas fa-heart"></i>By Bilal Ahmed
         </small>
       </div>

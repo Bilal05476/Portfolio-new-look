@@ -27,7 +27,9 @@ const Navbar = () => {
     <>
       <nav
         className={`navbar navbar-expand-md fixed-top 
-        ${navbarBackground ? "scrollNavbar" : ""} ${navIcon ? "blurryBack" : ""}`}
+        ${navbarBackground ? "scrollNavbar" : ""} ${
+          navIcon ? "blurryBack" : ""
+        }`}
       >
         <div className="logo">
           {location.pathname === "/" && (
@@ -61,14 +63,17 @@ const Navbar = () => {
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div className="navbar-nav ml-auto my-menu-bar">
+                <a href="#about-me" className="my-menu">
+                  About
+                </a>
                 <a href="#my-services" className="my-menu">
                   Services
                 </a>
                 <a href="#my-portfolio" className="my-menu">
                   Portfolio
                 </a>
-                <a href="#about-me" className="my-menu">
-                  About
+                <a href="#pricing" className="my-menu">
+                  Pricing
                 </a>
                 <a href="#my-skills" className="my-menu">
                   Skills
