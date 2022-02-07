@@ -33,22 +33,22 @@ const AllProjects = () => {
                 <small className="text-left">
                   Features:
                   {pro.projectFeatures.map((item, ind) => (
-                    <>
+                   
                       <li style={{ listStyle: "none" }} key={ind}>
                         <i className="far fa-check"></i> {item}
                       </li>
-                    </>
+                 
                   ))}
                 </small>
                 <br />
                 <small className="text-left">
                   Not Include (Under Dev):
                   {pro.projectFeaturesWill.map((item, ind) => (
-                    <>
+                   
                       <li style={{ listStyle: "none" }} key={ind}>
                         <i className="far fa-times text-danger"></i> {item}
                       </li>
-                    </>
+                   
                   ))}
                 </small>
                 <br />

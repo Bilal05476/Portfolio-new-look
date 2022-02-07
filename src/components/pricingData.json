@@ -4,16 +4,30 @@
         "packagePrice": 150,
         "packageInclude": [
             "For Individuals, Freelancers",
-            " Portfolio website.",
-            " Responsive website.",
-            " Unique look."
+            "Portfolio website of your work",
+            "Responsive and unique look",
+            "Up-to 3 Pages",
+            "All social media links",
+            "Separate resume section",
+            "Little bit animations",
+            "Contact now, package listing",
+            "3 Days Delivery"
         ]
     },
     {
         "packageName" : "Standard",
         "packagePrice": 250,
         "packageInclude": [
-            " All Individual Benefits, Plus"
+            "For Startups, Small Business",
+            "Website of your services / products",
+            "Responsive and unique look",
+            "Graphic works + Animations",
+            "Contact now, package listing",
+            "Separate sections of products or services",
+            "Free Demo / Landing page",
+            "Basic setup of social pages",
+            "2 Ads campaign up-to $50 Budget",
+            "7 Days Delivery"
            
         ]
     },

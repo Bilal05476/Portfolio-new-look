@@ -2,7 +2,7 @@ import "./css/pricing.css";
 import packages from "./pricingData";
 
 const Pricing = () => {
-  console.log(packages);
+ 
   return (
     <div className="package" id="pricing">
       <div className="header">
@@ -23,7 +23,6 @@ const Pricing = () => {
                 <li style={{ listStyle: "none" }} className="item-name">
                   <i className="far fa-check text-success"></i> {item}
                 </li>
-               
               </div>
             ))}
           </div>

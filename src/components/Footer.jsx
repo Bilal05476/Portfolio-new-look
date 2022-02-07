@@ -1,6 +1,13 @@
 import "./css/footer.css";
+import { useEffect, useState } from "react";
 
 const Footer = () => {
+  const [year, setYear] = useState("");
+  useEffect(() => {
+    const date = new Date();
+    setYear(date.getFullYear());
+  }, []);
+
   return (
     <div className="footer">
       <div className="social-icons-section">
@@ -25,7 +32,7 @@ const Footer = () => {
       </div>
       <div className="right-section text-center">
         <small>
-          Copyright &copy; 2021,
+          Copyright &copy; {year},
           <br /> Made with
           <i className="mx-1 text-danger fas fa-heart"></i>By Bilal Ahmed
         </small>
