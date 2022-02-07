@@ -1,6 +1,9 @@
 import linkedIn from "./img/linkedInClone.png";
 import eStore from "./img/ecommWeb.png";
 import coursesPortal from "./img/batechnosCourses.png";
+import netflix from "./img/netflixClone.png";
+import tracker from "./img/coronaTracker.png";
+import wtClone from "./img/whatsAppClone.png";
 
 const portfolioProjects = [
   {
@@ -24,7 +27,7 @@ const portfolioProjects = [
     projectVisit: "https://linkedin-clone-web.netlify.app/",
   },
   {
-    projectName: "Courses Portal",
+    projectName: "Learning Management System",
     projectDesc:
       "The core objective of this project is to handle multiple user data. Students add their skills, enroll in courses. This is just a demo project as I deliver a courses portal project to the client.",
     projectPurpose: "Portal Web Application",
@@ -44,7 +47,7 @@ const portfolioProjects = [
     projectVisit: "https://courses-from-me.netlify.app/",
   },
   {
-    projectName: "Organic E-Store",
+    projectName: "Organic Food E-Store",
     projectDesc:
       "The core objective of this project is to develop an e-commerce website application. This project covers a lot of functionality like authentication, single blog, and product open. Add item to a wishlist, add to cart, and card animation on checkout.",
     projectPurpose: "E-Commerce Web Application",
@@ -60,36 +63,48 @@ const portfolioProjects = [
     projectVisit: "https://skillsme-81986.web.app/",
   },
   {
-    projectName: "Organic E-Store",
+    projectName: "Netflix Clone",
     projectDesc:
       "The core objective of this project is to develop an e-commerce website application. This project covers a lot of functionality like authentication, single blog, and product open. Add item to a wishlist, add to cart, and card animation on checkout.",
-    projectPurpose: "E-Commerce Web Application",
+    projectPurpose: "Fetching Data from an Api",
     projectFeatures: [
-      "ReactJs, Firebase, Reducer",
-      "Google, Email and Pass Auth",
+      "ReactJs, Api",
       "Mobile Friendly",
-      "Add to Cart and Wishlist, Checkout Card Animation",
-      "CRUD Operations with Firebase",
+      "Banner Styling + Movie Banner Scrolling",
     ],
     projectFeaturesWill: [],
-    projectImg: eStore,
-    projectVisit: "https://skillsme-81986.web.app/",
+    projectImg: netflix,
+    projectVisit: "https://netflixclone-clone.surge.sh/",
   },
   {
-    projectName: "Organic E-Store",
+    projectName: "Corona Tracker",
     projectDesc:
       "The core objective of this project is to develop an e-commerce website application. This project covers a lot of functionality like authentication, single blog, and product open. Add item to a wishlist, add to cart, and card animation on checkout.",
-    projectPurpose: "E-Commerce Web Application",
+    projectPurpose: "Fetching Data from an Api",
     projectFeatures: [
-      "ReactJs, Firebase, Reducer",
-      "Google, Email and Pass Auth",
+      "ReactJs, ChartJs",
+      "Fetch Corona Data",
       "Mobile Friendly",
-      "Add to Cart and Wishlist, Checkout Card Animation",
-      "CRUD Operations with Firebase",
     ],
     projectFeaturesWill: [],
-    projectImg: eStore,
-    projectVisit: "https://skillsme-81986.web.app/",
+    projectImg: tracker,
+    projectVisit: "http://trackerproject.surge.sh/",
+  },
+  {
+    projectName: "WhatsApp Clone",
+    projectDesc:
+      "The core objective of this project is to develop an e-commerce website application. This project covers a lot of functionality like authentication, single blog, and product open. Add item to a wishlist, add to cart, and card animation on checkout.",
+    projectPurpose: "Multi-User Chatting Application",
+    projectFeatures: [
+      "ReactJs, Firebase, Reducer",
+      "Google Auth",
+      "Fetch Data from Database(firestore)",
+      "Build for Only Desktop Screen",
+      "Auth Tracker"
+    ],
+    projectFeaturesWill: [],
+    projectImg: wtClone,
+    projectVisit: "https://mywhatsapp-clone-project.web.app/",
   },
 ];
 

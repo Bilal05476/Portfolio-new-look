@@ -19,6 +19,8 @@
 .portfolio-project .portfolio-section .portfolio-image img {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
+  height: 250px;
+  width: 100% !important;
 }
 .portfolio-project .portfolio-section .portfolio-image img:hover{
   transform: scale(1.1);

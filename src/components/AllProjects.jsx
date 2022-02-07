@@ -5,7 +5,7 @@ const AllProjects = () => {
   const quarterOne = portfolioProjects.slice(0, 3);
   const quarterTwo = portfolioProjects.slice(3, 6);
   // const QuarterThree = projects.splice(0, 3);
-  
+
   return (
     <div className="portfolio-project" id="my-portfolio">
       <div className="header">
@@ -33,22 +33,18 @@ const AllProjects = () => {
                 <small className="text-left">
                   Features:
                   {pro.projectFeatures.map((item, ind) => (
-                   
-                      <li style={{ listStyle: "none" }} key={ind}>
-                        <i className="far fa-check"></i> {item}
-                      </li>
-                 
+                    <li style={{ listStyle: "none" }} key={ind}>
+                      <i className="far fa-check"></i> {item}
+                    </li>
                   ))}
                 </small>
                 <br />
                 <small className="text-left">
                   Not Include (Under Dev):
                   {pro.projectFeaturesWill.map((item, ind) => (
-                   
-                      <li style={{ listStyle: "none" }} key={ind}>
-                        <i className="far fa-times text-danger"></i> {item}
-                      </li>
-                   
+                    <li style={{ listStyle: "none" }} key={ind}>
+                      <i className="far fa-times text-danger"></i> {item}
+                    </li>
                   ))}
                 </small>
                 <br />
@@ -84,22 +80,18 @@ const AllProjects = () => {
                 <small className="text-left">
                   Features:
                   {pro.projectFeatures.map((item, ind) => (
-                    <>
-                      <li style={{ listStyle: "none" }} key={ind}>
-                        <i className="far fa-check"></i> {item}
-                      </li>
-                    </>
+                    <li style={{ listStyle: "none" }} key={ind}>
+                      <i className="far fa-check"></i> {item}
+                    </li>
                   ))}
                 </small>
                 <br />
                 <small className="text-left">
                   Not Include (Under Dev):
                   {pro.projectFeaturesWill.map((item, ind) => (
-                    <>
-                      <li style={{ listStyle: "none" }} key={ind}>
-                        <i className="far fa-times text-danger"></i> {item}
-                      </li>
-                    </>
+                    <li style={{ listStyle: "none" }} key={ind}>
+                      <i className="far fa-times text-danger"></i> {item}
+                    </li>
                   ))}
                 </small>
                 <br />

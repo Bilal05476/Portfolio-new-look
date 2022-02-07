@@ -1,7 +1,7 @@
 [
     {
         "packageName" : "Individual",
-        "packagePrice": 150,
+        "packagePrice": 399,
         "packageInclude": [
             "For Individuals, Freelancers",
             "Portfolio website of your work",
@@ -9,14 +9,15 @@
             "Up-to 3 Pages",
             "All social media links",
             "Separate resume section",
+            "Separate portfolio projects section",
             "Little bit animations",
             "Contact now, package listing",
             "3 Days Delivery"
         ]
     },
     {
-        "packageName" : "Standard",
-        "packagePrice": 250,
+        "packageName" : "Startup",
+        "packagePrice": 799,
         "packageInclude": [
             "For Startups, Small Business",
             "Website of your services / products",
@@ -26,16 +27,27 @@
             "Separate sections of products or services",
             "Free Demo / Landing page",
             "Basic setup of social pages",
-            "2 Ads campaign up-to $50 Budget",
+            "2 FB + 2 IG Ads campaign up-to $100 Budget",
             "7 Days Delivery"
            
         ]
     },
     {
         "packageName" : "Business",
-        "packagePrice": 500,
+        "packagePrice": 999,
         "packageInclude": [
-           " All Standard Benefits, Plus"
+           "For Growing, Large Business",
+           "Website of your services / products",
+           "Responsive and unique look",
+           "Graphic works + Animations",
+            "Contact now, package listing",
+           "Separate sections of products or services",
+           "4 FB + 2 IG Ads campaign up-to $200 Budget",
+           "Free Demo / Landing page",
+           "Up-to 7 Pages",
+           "Setup of social media pages",
+           "15 Days Delivery"
+           
         ]
     }
 ]
