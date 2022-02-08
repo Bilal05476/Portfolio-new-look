@@ -20,7 +20,7 @@ const Pricing = () => {
             {pack.include.map((item, ind) => (
               <div className="package-item" key={ind}>
                 <li style={{ listStyle: "none" }} className="item-name">
-                  <i className="far-fa-check text-success"></i> {item}
+                  <i className="far fa-check"></i> {item}
                 </li>
               </div>
             ))}
