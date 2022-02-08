@@ -2,7 +2,6 @@ import "./css/pricing.css";
 import packages from "./pricingData";
 
 const Pricing = () => {
- 
   return (
     <div className="package" id="pricing">
       <div className="header">
@@ -18,13 +17,7 @@ const Pricing = () => {
               <strong className="price">${pack.packagePrice}</strong>
               <sub> / Month</sub>
             </div>
-            {pack.packageInclude.map((item, ind) => (
-              <div className="package-item" key={ind}>
-                <li style={{ listStyle: "none" }} className="item-name">
-                  <i className="far fa-check text-success"></i> {item}
-                </li>
-              </div>
-            ))}
+            
           </div>
         ))}
       </div>
