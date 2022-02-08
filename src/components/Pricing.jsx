@@ -17,7 +17,14 @@ const Pricing = () => {
               <strong className="price">${pack.packagePrice}</strong>
               <sub> / Month</sub>
             </div>
-            
+            {pack.include.map((item, ind) => (
+              <div className="package-item" key={ind}>
+                <li style={{ listStyle: "none" }} className="item-name">
+                  <i className="far-fa-check text-success"></i>
+                  {item}
+                </li>
+              </div>
+            ))}
           </div>
         ))}
       </div>

@@ -2,7 +2,7 @@
     {
         "packageName" : "Individual",
         "packagePrice": 399,
-        "packageInclude": [
+        "include": [
             "For Individuals, Freelancers",
             "Portfolio website of your work",
             "Responsive and unique look",
@@ -18,7 +18,7 @@
     {
         "packageName" : "Startup",
         "packagePrice": 799,
-        "packageInclude": [
+        "include": [
             "For Startups, Small Business",
             "Website of your services / products",
             "Responsive and unique look",
@@ -35,7 +35,7 @@
     {
         "packageName" : "Business",
         "packagePrice": 999,
-        "packageInclude": [
+        "include": [
            "For Growing, Large Business",
            "Website of your services / products",
            "Responsive and unique look",
