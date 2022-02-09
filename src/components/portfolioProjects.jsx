@@ -4,6 +4,8 @@ import coursesPortal from "./img/batechnosCourses.png";
 import netflix from "./img/netflixClone.png";
 import tracker from "./img/coronaTracker.png";
 import wtClone from "./img/whatsAppClone.png";
+import hotel from "./img/hotelWeb.png";
+import gaming from "./img/gamingVibes.png";
 
 const portfolioProjects = [
   {
@@ -58,7 +60,7 @@ const portfolioProjects = [
       "Add to Cart and Wishlist, Checkout Card Animation",
       "CRUD Operations with Firebase",
     ],
-    projectFeaturesWill: [],
+    projectFeaturesWill: ["None"],
     projectImg: eStore,
     projectVisit: "https://skillsme-81986.web.app/",
   },
@@ -72,7 +74,7 @@ const portfolioProjects = [
       "Mobile Friendly",
       "Banner Styling + Movie Banner Scrolling",
     ],
-    projectFeaturesWill: [],
+    projectFeaturesWill: ["None"],
     projectImg: netflix,
     projectVisit: "https://netflixclone-clone.surge.sh/",
   },
@@ -86,7 +88,7 @@ const portfolioProjects = [
       "Fetch Corona Data",
       "Mobile Friendly",
     ],
-    projectFeaturesWill: [],
+    projectFeaturesWill: ["None"],
     projectImg: tracker,
     projectVisit: "http://trackerproject.surge.sh/",
   },
@@ -99,12 +101,41 @@ const portfolioProjects = [
       "ReactJs, Firebase, Reducer",
       "Google Auth",
       "Fetch Data from Database(firestore)",
-      "Build for Only Desktop Screen",
-      "Auth Tracker"
+      "Only Desktop Screen",
     ],
-    projectFeaturesWill: [],
+    projectFeaturesWill: ["None"],
     projectImg: wtClone,
     projectVisit: "https://mywhatsapp-clone-project.web.app/",
+  },
+  {
+    projectName: "Gaming Guides Web",
+    projectDesc:
+      "The core objective of this project is to develop an e-commerce website application. This project covers a lot of functionality like authentication, single blog, and product open. Add item to a wishlist, add to cart, and card animation on checkout.",
+    projectPurpose: "Use Netlify Auth, Functions",
+    projectFeatures: [
+      "NextJs, Netlify",
+      "Google, Email and Pass Auth",
+      "Fetch Data from Netlify",
+      "Mobile Friendly",
+      "Netlify Functions, Auth Tracker",
+    ],
+    projectFeaturesWill: ["None"],
+    projectImg: gaming,
+    projectVisit: "https://next-gaming-vibes.netlify.app/",
+  },
+  {
+    projectName: "Hotel Web Application",
+    projectDesc:
+      "The core objective of this project is to develop an e-commerce website application. This project covers a lot of functionality like authentication, single blog, and product open. Add item to a wishlist, add to cart, and card animation on checkout.",
+    projectPurpose: "Design Hotel Web Application",
+    projectFeatures: [
+      "Html, Css, Media Queries",
+      "Static Website",
+      "Mobile Friendly",
+    ],
+    projectFeaturesWill: ["None"],
+    projectImg: hotel,
+    projectVisit: "https://next-gaming-vibes.netlify.app/",
   },
 ];
 
