@@ -1,10 +1,16 @@
+import { Helmet } from "react-helmet";
 import "./css/jumbotron.css";
 
 const Jumbo = () => {
   return (
     <div className="my-jumbotron" id="top">
+      <Helmet>
+        <title>Bilal Ahmed | Portfolio</title>
+      </Helmet>
       <p className="welcome">Welcome To My Portfolio!</p>
-      <strong className="slogan">Provide Digital Solution for your Business</strong>
+      <strong className="slogan">
+        Provide Digital Solution for your Business
+      </strong>
       <p className="description">
         A Self thought <span>FREELANCE Website Developer</span>.
       </p>

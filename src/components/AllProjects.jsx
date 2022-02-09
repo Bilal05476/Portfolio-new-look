@@ -1,5 +1,6 @@
 import "./css/portfolio.css";
 import portfolioProjects from "./portfolioProjects";
+import { Helmet } from "react-helmet";
 
 const AllProjects = () => {
   const quarterOne = portfolioProjects.slice(0, 3);
@@ -8,6 +9,9 @@ const AllProjects = () => {
 
   return (
     <div className="portfolio-project" id="my-portfolio">
+      <Helmet>
+        <title>Bilal Ahmed | All Projects</title>
+      </Helmet>
       <div className="header">
         <h3>Portfolio</h3>
         <small>
