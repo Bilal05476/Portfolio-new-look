@@ -13,7 +13,13 @@ const Services = () => {
       </div>
       <div className="services-section">
         {service.map((item, ind) => (
-          <div className="service-card" key={ind}>
+          <div
+            className="service-card"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+            key={ind}
+          >
             <div className="icon">
               <i className={item.serviceIcon}></i>
             </div>

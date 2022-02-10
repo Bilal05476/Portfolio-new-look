@@ -16,7 +16,7 @@ const Portfolio = () => {
       </div>
       <div className="portfolio-section">
         {BestProjects.map((pro, ind) => (
-          <div className="portfolio-card" key={ind}>
+          <div className="portfolio-card" data-aos="fade-in" key={ind}>
             <div className="portfolio-image">
               <img src={pro.projectImg} width="100%" alt="portfolio-screen" />
             </div>
@@ -61,7 +61,7 @@ const Portfolio = () => {
           </div>
         ))}
       </div>
-      <NavLink to="all-projects">
+      <NavLink to="all-projects" data-aos="fade-in">
         <button className="jumbo-button">All Projects</button>
       </NavLink>
     </div>

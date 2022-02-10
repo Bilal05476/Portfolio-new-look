@@ -14,7 +14,13 @@ const Team = () => {
       </div>
       <div className="team-members-section">
         {member.map((mem, ind) => (
-          <div key={ind} className="member-content">
+          <div
+            key={ind}
+            className="member-content"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <img src={mem.memberImg} alt="member" className="member-img" />
             <h4 className="member-name">{mem.memberName}</h4>
             <h4 className="member-designation">{mem.memberDesignation}</h4>

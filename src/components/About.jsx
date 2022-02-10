@@ -12,7 +12,10 @@ const About = () => {
         </small>
       </div>
       <div className="about-section row">
-        <div className="about-content-left offset-md-2 col-md-7 col-12">
+        <div
+          className="about-content-left offset-md-2 col-md-7 col-12"
+          data-aos="fade-in"
+        >
           <div className="about-text">
             <h3>2018 - 2019 (early)</h3>
             <h3>
@@ -27,7 +30,10 @@ const About = () => {
           <img src={ex} alt="about-me" className="about-img" />
         </div>
 
-        <div className="about-content-right offset-md-2 col-md-7 col-12">
+        <div
+          className="about-content-right offset-md-2 col-md-7 col-12"
+          data-aos="fade-in"
+        >
           <img src={ex} alt="about-me" className="about-img" />
           <div className="about-text">
             <h3>2019 - Present</h3>
@@ -51,7 +57,10 @@ const About = () => {
           </div>
         </div>
 
-        <div className="about-content-left offset-md-2 col-md-7 col-12">
+        <div
+          className="about-content-left offset-md-2 col-md-7 col-12"
+          data-aos="fade-in"
+        >
           <div className="about-text">
             <h3>2019 (late) - Present</h3>
             <h3>
@@ -75,7 +84,10 @@ const About = () => {
           <img src={ex} alt="about-me" className="about-img" />
         </div>
 
-        <div className="about-content-last offset-3 offset-md-5 col-md-7 col-2">
+        <div
+          className="about-content-last offset-3 offset-md-5 col-md-7 col-2"
+          data-aos="fade-in"
+        >
           <div className="about-text">Be Part of My Story!</div>
         </div>
       </div>

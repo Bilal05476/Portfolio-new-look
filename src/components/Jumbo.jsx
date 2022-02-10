@@ -12,14 +12,36 @@ const Jumbo = () => {
       <Helmet>
         <title>Bilal Ahmed | Portfolio</title>
       </Helmet>
-      <p className="welcome">Welcome To My Portfolio!</p>
-      <strong className="slogan">
+      <p
+        data-aos="fade-in"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1000"
+        className="welcome"
+      >
+        Welcome To My Portfolio!
+      </p>
+      <strong
+        data-aos="fade-in"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="1500"
+        className="slogan"
+      >
         Provide Digital Solution for your Business
       </strong>
-      <p className="description">
+      <p
+        data-aos="fade-in"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2000"
+        className="description"
+      >
         A Self thought <span>FREELANCE Website Developer</span>.
       </p>
-      <a href="#contact">
+      <a
+        data-aos="fade-in"
+        data-aos-easing="ease-out-cubic"
+        data-aos-duration="2500"
+        href="#contact"
+      >
         <button className="jumbo-button">Contact Now</button>
       </a>
     </div>

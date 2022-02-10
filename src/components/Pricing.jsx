@@ -10,7 +10,13 @@ const Pricing = () => {
       </div>
       <div className="package-section">
         {packages.map((pack, ind) => (
-          <div key={ind} className="package-content">
+          <div
+            key={ind}
+            className="package-content"
+            data-aos="flip-left"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
+          >
             <i className="package-icon fas fa-laptop"></i>
             <h4 className="package-name">{pack.packageName}</h4>
             <div className="package-pricing">

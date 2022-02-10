@@ -27,7 +27,7 @@ const AllProjects = () => {
       </div>
       <div className="portfolio-section">
         {quarterOne.map((pro, ind) => (
-          <div className="portfolio-card" key={ind}>
+          <div className="portfolio-card" data-aos="fade-in" key={ind}>
             <div className="portfolio-image">
               <img src={pro.projectImg} width="100%" alt="portfolio-screen" />
             </div>
@@ -74,7 +74,7 @@ const AllProjects = () => {
       </div>
       <div className="portfolio-section">
         {quarterTwo.map((pro, ind) => (
-          <div className="portfolio-card" key={ind}>
+          <div className="portfolio-card" data-aos="fade-in" key={ind}>
             <div className="portfolio-image">
               <img src={pro.projectImg} width="100%" alt="portfolio-screen" />
             </div>
@@ -121,7 +121,7 @@ const AllProjects = () => {
       </div>
       <div className="portfolio-section">
         {quarterThree.map((pro, ind) => (
-          <div className="portfolio-card" key={ind}>
+          <div className="portfolio-card" data-aos="fade-in" key={ind}>
             <div className="portfolio-image">
               <img src={pro.projectImg} width="100%" alt="portfolio-screen" />
             </div>
