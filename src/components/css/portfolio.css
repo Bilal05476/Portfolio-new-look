@@ -13,16 +13,16 @@
   display: flex;
   margin-top: 2rem;
 }
-.portfolio-project .portfolio-card .portfolio-image{
+.portfolio-project .portfolio-card .portfolio-image {
   overflow: hidden;
 }
 .portfolio-project .portfolio-section .portfolio-image img {
   border-top-left-radius: 5px;
+  height: 240px;
   border-top-right-radius: 5px;
-  height: 250px;
   width: 100% !important;
 }
-.portfolio-project .portfolio-section .portfolio-image img:hover{
+.portfolio-project .portfolio-section .portfolio-image img:hover {
   transform: scale(1.1);
 }
 .portfolio-project .header h3 {
@@ -75,5 +75,8 @@
   .portfolio-project .portfolio-card {
     width: 100%;
     margin: 1rem auto;
+  }
+  .portfolio-project .portfolio-section .portfolio-image {
+    height: 200px;
   }
 }

@@ -51,7 +51,7 @@ const portfolioProjects = [
   {
     projectName: "Organic Food E-Store",
     projectDesc:
-      "The core objective of this project is to develop an e-commerce website application. This project covers a lot of functionality like authentication, single blog, and product open. Add item to a wishlist, add to cart, and card animation on checkout.",
+      "The core objective of this project is to develop an E-commerce website application. This project covers a lot of functionality like authentication, single blog, and product open. Add item to a wishlist, add to cart, and card animation on checkout.",
     projectPurpose: "E-Commerce Web Application",
     projectFeatures: [
       "ReactJs, Firebase, Reducer",
@@ -67,7 +67,7 @@ const portfolioProjects = [
   {
     projectName: "Netflix Clone",
     projectDesc:
-      "The core objective of this project is to develop an e-commerce website application. This project covers a lot of functionality like authentication, single blog, and product open. Add item to a wishlist, add to cart, and card animation on checkout.",
+      "The core objective of this project is to develop a Netflix clone, add some styling like banner and horizontal scrolling of film posters, fetch data from an API.",
     projectPurpose: "Fetching Data from an Api",
     projectFeatures: [
       "ReactJs, Api",
@@ -81,7 +81,7 @@ const portfolioProjects = [
   {
     projectName: "Corona Tracker",
     projectDesc:
-      "The core objective of this project is to develop an e-commerce website application. This project covers a lot of functionality like authentication, single blog, and product open. Add item to a wishlist, add to cart, and card animation on checkout.",
+      "The core objective of this project is to develop a Corona tracker, use ChartJS, fetch data from an API, and perform visualization of data in a respective manner. ",
     projectPurpose: "Fetching Data from an Api",
     projectFeatures: [
       "ReactJs, ChartJs",
@@ -95,7 +95,7 @@ const portfolioProjects = [
   {
     projectName: "WhatsApp Clone",
     projectDesc:
-      "The core objective of this project is to develop an e-commerce website application. This project covers a lot of functionality like authentication, single blog, and product open. Add item to a wishlist, add to cart, and card animation on checkout.",
+      "The core objective of this project is to develop a WhatsApp clone to perform the functionality of multiple user chatting. The database of this project is built with firebase. This is exciting stuff for me as I was on one client's project who needed the same thing.",
     projectPurpose: "Multi-User Chatting Application",
     projectFeatures: [
       "ReactJs, Firebase, Reducer",
@@ -110,7 +110,7 @@ const portfolioProjects = [
   {
     projectName: "Gaming Guides Web",
     projectDesc:
-      "The core objective of this project is to develop an e-commerce website application. This project covers a lot of functionality like authentication, single blog, and product open. Add item to a wishlist, add to cart, and card animation on checkout.",
+      "",
     projectPurpose: "Use Netlify Auth, Functions",
     projectFeatures: [
       "NextJs, Netlify",
@@ -126,7 +126,7 @@ const portfolioProjects = [
   {
     projectName: "Hotel Web Application",
     projectDesc:
-      "The core objective of this project is to develop an e-commerce website application. This project covers a lot of functionality like authentication, single blog, and product open. Add item to a wishlist, add to cart, and card animation on checkout.",
+      "",
     projectPurpose: "Design Hotel Web Application",
     projectFeatures: [
       "Html, Css, Media Queries",

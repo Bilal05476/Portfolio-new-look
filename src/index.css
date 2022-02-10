@@ -28,11 +28,13 @@
   background: linear-gradient(to top, var(--themeColor--) 0%, #424242 100%);
 }
 
+/* slogans */
 .spc {
   width: 50%;
 }
 
 @media (max-width: 992px) {
+  /* slogans */
   .spc {
     width: 100%;
   }
