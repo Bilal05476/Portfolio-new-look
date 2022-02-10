@@ -7,11 +7,11 @@ const Portfolio = () => {
 
   return (
     <div className="portfolio-project" id="my-portfolio">
-      <div className="header">
+      <div className="header spc">
         <h3>Portfolio</h3>
         <small>
-          Here is my some best Portfolio Projects! Using different techs like
-          ReactJs, NextJs, Firebase etc..
+          Here are some of my best Portfolio Projects! Using different techs
+          like ReactJs, NextJs, Firebase, etc...
         </small>
       </div>
       <div className="portfolio-section">

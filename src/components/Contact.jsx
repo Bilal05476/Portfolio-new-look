@@ -7,9 +7,8 @@ const Contact = () => {
         <h3>Contact Me & Subscribe</h3>
         <small>
           Contact now for any query related to my services, I am happy to
-          respond you back,
-          <br />
-          Make sure to subscribe as well for future events and amazing stuff!
+          respond to you back, <br /> Make sure to subscribe as well for future events
+          and amazing stuff!
         </small>
       </div>
       <div className="row">

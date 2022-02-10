@@ -4,9 +4,9 @@ import packages from "./pricingData";
 const Pricing = () => {
   return (
     <div className="package" id="pricing">
-      <div className="header">
+      <div className="header spc">
         <h3>Hire according to budget</h3>
-        <small>Value you get from this, Pricing is a penny for that!</small>
+        <small>The value you get from this, Pricing is a penny for that!</small>
       </div>
       <div className="package-section">
         {packages.map((pack, ind) => (

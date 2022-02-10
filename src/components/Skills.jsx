@@ -3,13 +3,12 @@ import "./css/skills.css";
 const Skills = () => {
   return (
     <div className="skills" id="my-skills">
-      <div className="header">
+      <div className="header spc">
         <h3>My Skills</h3>
         <small>
-          I love what I do and I do what my clients love {"&"} work with great clients
-          all over the world to create thoughtful and purposeful websites.
-          <br />
-          I don't just create websites, I create websites that SELL.
+          I love what I do and I do what my clients love {"&"} work with great
+          clients all over the world to create thoughtful and purposeful
+          websites. I don't just create websites, I create websites that SELL.
         </small>
       </div>
       <div className="skills-section row">

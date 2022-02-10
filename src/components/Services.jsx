@@ -4,10 +4,10 @@ import service from "./serviceData.json";
 const Services = () => {
   return (
     <div className="services" id="my-services">
-      <div className="header">
+      <div className="header spc">
         <h3>Services</h3>
         <small>
-          Business Planning, Strategy, and Execution. <br /> A problem-solving
+          Business Planning, Strategy, and Execution. A problem-solving
           philosophy that leads to products people actually want to use.
         </small>
       </div>

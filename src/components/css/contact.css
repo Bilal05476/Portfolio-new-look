@@ -22,8 +22,8 @@
   font-style: italic;
 }
 .contact-set .contact-section {
-  margin-top: 2rem;
   border-right: 0.6px solid var(--themeColor--); 
+  margin-top: 3rem;
 }
 .contact-set .contact-section .left-section,
 .contact-set .contact-section .right-section {
@@ -67,7 +67,7 @@
   margin-top: 2rem;
 }
 .subscribe{
-    margin-top: 2rem;
+    margin-top: 3rem;
   }
 
 @media (max-width: 992px) {
@@ -94,6 +94,9 @@
   }
   .contact-set .contact-section .right-section {
     margin-left: 0;
+  }
+  .subscribe{
+    margin-top: 2rem;
   }
   
 }

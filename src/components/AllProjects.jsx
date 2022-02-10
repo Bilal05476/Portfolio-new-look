@@ -12,7 +12,7 @@ const AllProjects = () => {
       <Helmet>
         <title>Bilal Ahmed | All Projects</title>
       </Helmet>
-      <div className="header">
+      <div className="header spc">
         <h3>Portfolio</h3>
         <small>
           Here is my some best Portfolio Projects! Using different techs like
