@@ -34,8 +34,15 @@ const Contact = () => {
           </div>
         </form>
         <div className="col-md-4 subscribe" data-aos="fade-in">
-          <form>
-            <input type="email" placeholder="Your Email *" required />
+          <form name="subscribeForm" method="POST" action="/success">
+            <input type="hidden" name="form-name" value="subscribeForm" />
+            <input
+              id="email"
+              type="email"
+              placeholder="Your Email *"
+              name="email"
+              required
+            />
             <div className="contact-button">
               <button>SUBSCRIBE</button>
             </div>
