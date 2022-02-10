@@ -6,7 +6,10 @@ const Team = () => {
     <div className="team" id="my-team">
       <div className="header">
         <h3>My Amazing Team</h3>
-        <small>team slogan goes here now!</small>
+        <small>
+          Everyone need a team, team work behind the scenes. And I am glad to have such a tech savvy team
+          members, <br /> Each individual have their own identity.
+        </small>
       </div>
       <div className="team-members-section">
         {member.map((mem, ind) => (

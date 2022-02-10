@@ -5,7 +5,12 @@ const Contact = () => {
     <div className="contact-set" id="contact">
       <div className="header">
         <h3>Contact Me & Subscribe</h3>
-        <small>contact slogan goes here now!</small>
+        <small>
+          Contact now for any query related to my services, I am happy to
+          respond you back,
+          <br />
+          Make sure to subscribe as well for future events and amazing stuff!
+        </small>
       </div>
       <div className="row">
         <form className="contact-section col-md-8 col-12">

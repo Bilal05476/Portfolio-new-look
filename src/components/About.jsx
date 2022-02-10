@@ -6,8 +6,9 @@ const About = () => {
       <div className="header">
         <h3>About</h3>
         <small>
-          About slogan goes here now! Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Neque, iste iusto facilis adipisci.
+          I support you every step of the way. If there is an issue, my customer
+          service are ready to help you over email or a phone call. I value your
+          business!
         </small>
       </div>
       <div className="about-section row">
@@ -57,7 +58,7 @@ const About = () => {
               My Journey Begins <hr className="hr" />
             </h3>
             <p>
-              Started my journey as a techy student, enrolled in some basic
+              Enchance my journey as a techy professional, enrolled in some basic
               level courses on an online platform like{" "}
               <a
                 className="project-visit"

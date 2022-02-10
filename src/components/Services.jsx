@@ -6,7 +6,10 @@ const Services = () => {
     <div className="services" id="my-services">
       <div className="header">
         <h3>Services</h3>
-        <small>services slogan goes here now!</small>
+        <small>
+          Business Planning, Strategy, and Execution. <br /> A problem-solving
+          philosophy that leads to products people actually want to use.
+        </small>
       </div>
       <div className="services-section">
         {service.map((item, ind) => (

@@ -31,6 +31,7 @@
   background-color: #424242;
   margin: 1rem;
   border-radius: 5px;
+  width: 25%;
 }
 .services .service-card .icon {
   background-color: var(--themeColor--);

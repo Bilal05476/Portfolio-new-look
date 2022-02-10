@@ -6,7 +6,7 @@ const Pricing = () => {
     <div className="package" id="pricing">
       <div className="header">
         <h3>Hire according to budget</h3>
-        <small>pricing slogan goes here now!</small>
+        <small>Value you get from this, Pricing is a penny for that!</small>
       </div>
       <div className="package-section">
         {packages.map((pack, ind) => (
