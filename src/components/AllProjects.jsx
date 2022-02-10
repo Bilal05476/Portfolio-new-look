@@ -1,11 +1,17 @@
 import "./css/portfolio.css";
 import portfolioProjects from "./portfolioProjects";
 import { Helmet } from "react-helmet";
+import {useEffect} from "react";
 
 const AllProjects = () => {
   const quarterOne = portfolioProjects.slice(0, 3);
   const quarterTwo = portfolioProjects.slice(3, 6);
   const quarterThree = portfolioProjects.slice(6, 9);
+
+  // This scroll page at top on navigation
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <div className="portfolio-project" id="my-portfolio">
