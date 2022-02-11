@@ -1,4 +1,4 @@
-const success = () => {
+const Contact = () => {
   return (
     <div>
       <p>Thank you</p>
@@ -6,4 +6,4 @@ const success = () => {
   );
 };
 
-export default success;
+export default Contact;

@@ -20,16 +20,18 @@ const Contact = () => {
           action="/success/"
         >
           <div className="row">
+            <input type="hidden" name="form-name" value="contactForm" />
             <div className="left-section col-md-4 col-12">
-              <input type="hidden" name="form-name" value="contactForm" />
-              <input id="name" type="text" placeholder="Your Name *" required />
+              <input name="name" id="name" type="text" placeholder="Your Name *" required />
               <input
+              name="email"
                 id="email"
                 type="email"
                 placeholder="Your Email *"
                 required
               />
               <input
+              name="phone"
                 id="phone"
                 type="text"
                 placeholder="Your Phone *"
@@ -38,6 +40,7 @@ const Contact = () => {
             </div>
             <div className="right-section col-md-7 col-12">
               <textarea
+              name="message"
                 id="message"
                 rows="9"
                 // cols="20"
