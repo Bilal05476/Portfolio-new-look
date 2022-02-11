@@ -19,10 +19,9 @@ const Contact = () => {
           method="POST"
           action="/success/"
         >
-          <input type="hidden" name="form-name" value="contactForm" />
-
           <div className="row">
             <div className="left-section col-md-4 col-12">
+              <input type="hidden" name="form-name" value="contactForm" />
               <input id="name" type="text" placeholder="Your Name *" required />
               <input
                 id="email"
