@@ -33,6 +33,7 @@
   border-radius: 5px;
   box-shadow: 0.1rem 0.3rem 0.2rem #202020;
 }
+
 .package-section .package-content .package-icon {
   font-size: 2rem;
   background-color: var(--themeColor--);
@@ -53,7 +54,7 @@
   font-size: 2rem;
   font-weight: 500;
 }
-.package-item .far{
+.package-item .far {
   color: var(--themeColor--);
 }
 
@@ -61,7 +62,7 @@
   .package-section {
     flex-direction: column;
   }
-  .package-section .package-content{
+  .package-section .package-content {
     width: 100%;
     padding: 2rem 1rem;
   }

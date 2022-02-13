@@ -2,13 +2,13 @@
     {
         "packageName" : "Individual",
         "packagePrice": 399,
+        "packageFor": "For Individuals, Freelancers",
         "include": [
-            "For Individuals, Freelancers",
-            "Portfolio website of your work",
+            "Portfolio Website of your work",
             "Responsive and unique look",
             "Up-to 3 Pages",
-            "All social media links",
-            "Separate resume section",
+            "Logo Designing",
+            "Separate resume page",
             "Separate portfolio projects section",
             "Little bit animations",
             "Contact now, package listing",
@@ -18,15 +18,15 @@
     {
         "packageName" : "Startup",
         "packagePrice": 799,
+        "packageFor" :  "For Startups, Small Business",
         "include": [
-            "For Startups, Small Business",
             "Website of your services / products",
             "Responsive and unique look",
             "Graphic works + Animations",
             "Contact now, package listing",
             "Separate sections of products or services",
-            "Free Demo / Landing page",
-            "Basic setup of social pages",
+            "Basic setup of social pages + Logo designing",
+            "2 Social media post for each platform",
             "2 FB + 2 IG Ads campaign up-to $100 Budget",
             "7 Days Delivery"
            
@@ -35,17 +35,17 @@
     {
         "packageName" : "Business",
         "packagePrice": 999,
+        "packageFor" : "For Growing, Large Business",
         "include": [
-           "For Growing, Large Business",
            "Website of your services / products",
            "Responsive and unique look",
            "Graphic works + Animations",
+           "Up-to 7 Pages",
             "Contact now, package listing",
            "Separate sections of products or services",
            "4 FB + 2 IG Ads campaign up-to $200 Budget",
-           "Free Demo / Landing page",
-           "Up-to 7 Pages",
-           "Setup of social media pages",
+           "4 Social media post for each platform",
+           "Setup of social media pages + Logo designing",
            "15 Days Delivery"
            
         ]
