@@ -76,4 +76,8 @@
   .my-jumbotron .slogan {
     font-size: 1.5rem;
   }
+  .jumbo-button,
+  .contact-set .contact-button button {
+    font-size: 0.8rem;
+  }
 }

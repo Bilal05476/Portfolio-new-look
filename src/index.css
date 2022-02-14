@@ -7,8 +7,8 @@
   scroll-behavior: smooth;
 }
 :root {
-  --themeColor--: #7ae066;
-  /* --themeColor--: #74e0ef; */
+  /* --themeColor--: #7ae066; */
+  --themeColor--: #74e0ef;
 }
 
 /* ScrollBar */

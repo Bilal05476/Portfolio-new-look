@@ -13,7 +13,7 @@ const About = () => {
       </div>
       <div className="about-section row">
         <div
-          className="about-content-left offset-md-2 col-md-7 col-12"
+          className="about-content-left offset-md-4 col-md-7 col-12"
           data-aos="fade-in"
         >
           <div className="about-text">
@@ -31,7 +31,7 @@ const About = () => {
         </div>
 
         <div
-          className="about-content-right offset-md-2 col-md-7 col-12"
+          className="about-content-right offset-md-1 col-md-7 col-12"
           data-aos="fade-in"
         >
           <img src={ex} alt="about-me" className="about-img" />
@@ -58,7 +58,7 @@ const About = () => {
         </div>
 
         <div
-          className="about-content-left offset-md-2 col-md-7 col-12"
+          className="about-content-left offset-md-4 col-md-7 col-12"
           data-aos="fade-in"
         >
           <div className="about-text">
@@ -68,7 +68,7 @@ const About = () => {
             </h3>
             <p>
               Grown as a techy professional, enrolled in some courses related to
-              website development on an online platform like
+              website development on an online platform like{" "}
               <a
                 className="project-visit"
                 href="https://coursera.org"
@@ -84,10 +84,7 @@ const About = () => {
           <img src={ex} alt="about-me" className="about-img" />
         </div>
 
-        <div
-          className="about-content-last offset-3 offset-md-5 col-md-7 col-2"
-          data-aos="fade-in"
-        >
+        <div className="about-content-last offset-3 offset-md-1 col-7" data-aos="fade-in">
           <div className="about-text">Be Part of My Story!</div>
         </div>
       </div>

@@ -127,7 +127,7 @@ const portfolioProjects = [
     projectName: "Hotel Web Application",
     projectDesc:
       "",
-    projectPurpose: "Design Hotel Web Application",
+    projectPurpose: "Static Hotel Website",
     projectFeatures: [
       "Html, Css, Media Queries",
       "Static Website",

@@ -25,16 +25,16 @@ const Team = () => {
             <h4 className="member-name">{mem.memberName}</h4>
             <h4 className="member-designation">{mem.memberDesignation}</h4>
             <div className="member-social-networks">
-              <a className="social-link" href={mem.memberLinks[0]}>
+              <a className="social-link" target="blank" title="Facebook" href={mem.memberLinks[0]}>
                 <i className="fab fa-facebook"></i>
               </a>
-              <a className="social-link" href={mem.memberLinks[1]}>
+              <a className="social-link" target="blank" title="Instagram" href={mem.memberLinks[1]}>
                 <i className="fab fa-instagram"></i>
               </a>
-              <a className="social-link" href={mem.memberLinks[2]}>
+              <a className="social-link" target="blank" title="LinkedIn" href={mem.memberLinks[2]}>
                 <i className="fab fa-linkedin-in"></i>
               </a>
-              <a className="social-link" href={mem.memberLinks[3]}>
+              <a className="social-link" target="blank" title="Website" href={mem.memberLinks[3]}>
                 <i className="far fa-globe"></i>
               </a>
             </div>
