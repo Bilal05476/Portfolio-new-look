@@ -110,7 +110,7 @@ const portfolioProjects = [
   {
     projectName: "Gaming Guides Web",
     projectDesc:
-      "",
+      "The core objective of this project is to develop a web application using Netflify functions and auth. The backend of this project is built with Netlify. Using and implementing serverless technologies is also the encouraging purpose of this project.",
     projectPurpose: "Use Netlify Auth, Functions",
     projectFeatures: [
       "NextJs, Netlify",
@@ -126,7 +126,7 @@ const portfolioProjects = [
   {
     projectName: "Hotel Web Application",
     projectDesc:
-      "",
+      "The core objective of this project is to develop a static hotel website using HTML and CSS. I created this website for one of my BootCamp. This is just a static website, designed and developed using the tutorial. ",
     projectPurpose: "Static Hotel Website",
     projectFeatures: [
       "Html, Css, Media Queries",
@@ -135,7 +135,7 @@ const portfolioProjects = [
     ],
     projectFeaturesWill: ["None"],
     projectImg: hotel,
-    projectVisit: "https://next-gaming-vibes.netlify.app/",
+    projectVisit: "https://hotel-project.netlify.app/",
   },
 ];
 
