@@ -34,7 +34,7 @@ const Jumbo = () => {
         data-aos-duration="2000"
         className="description"
       >
-        A Self thought <span>FREELANCE Website Developer</span>.
+        A Freelance<span> JavaScript Website Developer</span>.
       </p>
       <a
         data-aos="fade-in"
