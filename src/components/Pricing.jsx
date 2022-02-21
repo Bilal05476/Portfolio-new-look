@@ -14,7 +14,7 @@ const Pricing = () => {
       <div className="package-section">
         {packages.map((pack, ind) => {
           const someDetails = pack.include[0];
-          console.log(someDetails);
+        
           return (
             <div
               key={ind}
