@@ -35,7 +35,7 @@ const Team = () => {
                 <i className="fab fa-linkedin-in"></i>
               </a>
               <a className="social-link" target="blank" title="Website" href={mem.memberLinks[3]}>
-                <i className="far fa-globe"></i>
+                <i className="fas fa-globe"></i>
               </a>
             </div>
           </div>

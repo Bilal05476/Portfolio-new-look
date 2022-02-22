@@ -56,7 +56,7 @@ const Navbar = () => {
               onClick={() => setNavIcon(!navIcon)}
             >
               <i
-                className={`navbar-toggler-icon fa fa-${
+                className={`navbar-toggler-icon fas fa-${
                   navIcon ? "times" : "bars"
                 }`}
               ></i>

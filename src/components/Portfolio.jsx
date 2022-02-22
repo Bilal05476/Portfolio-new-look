@@ -54,7 +54,7 @@ const Portfolio = () => {
                   href={pro.projectVisit}
                   target="blank"
                 >
-                  <i className="far fa-globe"></i> Try
+                  <i className="fas fa-globe"></i> Try
                 </a>
               </div>
             </div>

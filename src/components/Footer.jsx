@@ -44,7 +44,7 @@ const Footer = () => {
           target="blank"
           href="mailto:bilalahmed6551@gmail.com"
         >
-          <i title="Email" className="far fa-envelope"></i>
+          <i title="Email" className="fas fa-envelope"></i>
         </a>
         <a className="social-link" href="#top">
           <i title="Scroll Top" className="far fa-arrow-up"></i>

@@ -78,7 +78,7 @@ const Jumbo = () => {
           target="blank"
           href="mailto:bilalahmed6551@gmail.com"
         >
-          <i title="Email" className="far fa-envelope"></i>
+          <i title="Email" className="fas fa-envelope"></i>
         </a>
       </div>
     </div>
