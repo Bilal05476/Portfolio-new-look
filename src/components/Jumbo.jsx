@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import { Helmet } from "react-helmet";
 import "./css/jumbotron.css";
-
+import { BsFacebook, BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
 const Jumbo = () => {
   // This scroll page at top on navigation
   useEffect(() => {
@@ -50,35 +51,35 @@ const Jumbo = () => {
           target="blank"
           href="https://github.com/Bilal05476"
         >
-          <i title="GitHub" className="fab fa-github"></i>
+          <BsGithub className="font-icon" title="GitHub" />
         </a>
         <a
           className="social-link"
           target="blank"
           href="https://www.instagram.com/bilal_ahmed_05/"
         >
-          <i title="Instagram" className="fab fa-instagram"></i>
+          <BsInstagram className="font-icon" title="Instagram" />
         </a>
         <a
           className="social-link"
           target="blank"
           href="https://www.linkedin.com/in/bilal-ahmed-b75125184"
         >
-          <i title="LinkedIn" className="fab fa-linkedin-in"></i>
+          <BsLinkedin className="font-icon" title="LinkedIn" />
         </a>
         <a
           className="social-link"
           target="blank"
           href="https://www.facebook.com/profile.php?id=100007545697355"
         >
-          <i title="Facebook" className="fab fa-facebook"></i>
+          <BsFacebook className="font-icon" title="Facebook" />
         </a>
         <a
           className="social-link"
           target="blank"
           href="mailto:bilalahmed6551@gmail.com"
         >
-          <i title="Email" className="fas fa-envelope"></i>
+          <MdEmail className="font-icon email-icon" title="Email" />
         </a>
       </div>
     </div>

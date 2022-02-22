@@ -1,6 +1,8 @@
 import "./css/pricing.css";
 import packages from "./pricingData";
 import { useState } from "react";
+import { BiCheck } from "react-icons/bi";
+import {FaLaptop} from "react-icons/fa";
 
 const Pricing = () => {
   const [show, setShow] = useState(false);

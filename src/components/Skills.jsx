@@ -1,4 +1,16 @@
 import "./css/skills.css";
+import { FaHtml5, FaCss3Alt, FaNodeJs } from "react-icons/fa";
+import {
+  SiJavascript,
+  SiFirebase,
+  SiMongodb,
+  SiNetlify,
+  SiPython,
+} from "react-icons/si";
+import {BsBootstrapFill} from "react-icons/bs";
+import {GrReactjs} from "react-icons/gr";
+
+
 
 const Skills = () => {
   return (

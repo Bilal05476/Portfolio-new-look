@@ -1,5 +1,6 @@
 import "./css/services.css";
 import service from "./serviceData.json";
+import { FaCode, Fa500Px, FaSearchDollar, FaMobile } from "react-icons/fa";
 
 const Services = () => {
   return (

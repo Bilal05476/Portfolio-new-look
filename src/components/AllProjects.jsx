@@ -2,6 +2,9 @@ import "./css/portfolio.css";
 import portfolioProjects from "./portfolioProjects";
 import { Helmet } from "react-helmet";
 import {useEffect} from "react";
+import {BiCheck} from "react-icons/bi";
+import { FaTimes } from "react-icons/fa";
+import {BsGlobe} from "react-icons/bs";
 
 const AllProjects = () => {
   const quarterOne = portfolioProjects.slice(0, 3);

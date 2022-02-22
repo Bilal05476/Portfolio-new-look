@@ -49,12 +49,13 @@
   margin: 0.2rem 0.3rem;
 }
 
-.social-link .fab,
-.social-link .fas {
+.social-link .font-icon {
   font-size: 1.5rem;
 }
-.social-link .fab:hover,
-.social-link .far:hover {
+.social-link .email-icon{
+  font-size: 1.8rem;
+}
+.social-link .font-icon:hover {
   transition: 0.2s ease-in-out;
   color: var(--themeColor--);
 }

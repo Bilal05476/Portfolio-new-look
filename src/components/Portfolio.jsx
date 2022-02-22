@@ -1,6 +1,9 @@
 import "./css/portfolio.css";
 import portfolioProjects from "./portfolioProjects";
 import { NavLink } from "react-router-dom";
+import { BiCheck } from "react-icons/bi";
+import { FaTimes } from "react-icons/fa";
+import { BsGlobe } from "react-icons/bs";
 
 const Portfolio = () => {
   const BestProjects = portfolioProjects.slice(0, 3);

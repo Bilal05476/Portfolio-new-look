@@ -1,5 +1,7 @@
 import "./css/team.css";
 import member from "./teamData";
+import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
+import { BsGlobe } from "react-icons/bs";
 
 const Team = () => {
   return (

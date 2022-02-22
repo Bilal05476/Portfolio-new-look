@@ -1,5 +1,14 @@
 import "./css/footer.css";
 import { useEffect, useState } from "react";
+import {
+  BsFacebook,
+  BsGithub,
+  BsInstagram,
+  BsLinkedin,
+  BsArrowUpCircleFill,
+} from "react-icons/bs";
+import { MdEmail } from "react-icons/md";
+
 
 const Footer = () => {
   const [year, setYear] = useState("");
