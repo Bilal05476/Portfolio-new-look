@@ -1,6 +1,8 @@
 import { useState, useEffect } from "react";
 import "./css/navbar.css";
 import { NavLink, useLocation } from "react-router-dom";
+import { MdMenu } from "react-icons/md";
+import { FaTimes } from "react-icons/fa";
 
 const Navbar = () => {
   const location = useLocation();
@@ -46,20 +48,31 @@ const Navbar = () => {
         {location.pathname === "/" && (
           <>
             <button
-              className="navbar-toggler"
+              className="navbar-toggler p-0"
               type="button"
               data-toggle="collapse"
               data-target="#navbarNavAltMarkup"
               aria-controls="navbarNavAltMarkup"
               aria-expanded="false"
               aria-label="Toggle navigation"
-              onClick={() => setNavIcon(!navIcon)}
+              // onClick={() => setNavIcon(!navIcon)}
             >
-              <i
+              {/* <i
                 className={`navbar-toggler-icon fas fa-${
                   navIcon ? "times" : "bars"
                 }`}
-              ></i>
+              ></i> */}
+              {navIcon ? (
+                <FaTimes
+                  className="navbar-toggler-icon"
+                  // onClick={() => setNavIcon(false)}
+                />
+              ) : (
+                <MdMenu
+                  className="navbar-toggler-icon"
+                  // onClick={() => setNavIcon(true)}
+                />
+              )}
             </button>
             <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
               <div className="navbar-nav ml-auto my-menu-bar">
