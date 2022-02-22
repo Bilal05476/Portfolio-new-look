@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { BiCheck } from "react-icons/bi";
 import { FaTimes } from "react-icons/fa";
 import { BsGlobe } from "react-icons/bs";
-
+import {AiOutlineCloseCircle} from "react-icons/ai";
 const Portfolio = () => {
   const BestProjects = portfolioProjects.slice(0, 3);
 
@@ -36,7 +36,7 @@ const Portfolio = () => {
                   Features:
                   {pro.projectFeatures.map((item, ind) => (
                     <li style={{ listStyle: "none" }} key={ind}>
-                      <i className="far fa-check"></i> {item}
+                      <BiCheck className="check-icon" /> {item}
                     </li>
                   ))}
                 </small>
@@ -45,7 +45,7 @@ const Portfolio = () => {
                   Not Include (Under Dev):
                   {pro.projectFeaturesWill.map((item, ind) => (
                     <li style={{ listStyle: "none" }} key={ind}>
-                      <i className="far fa-times text-danger"></i> {item}
+                      <AiOutlineCloseCircle className="text-danger" /> {item}
                     </li>
                   ))}
                 </small>
@@ -57,7 +57,7 @@ const Portfolio = () => {
                   href={pro.projectVisit}
                   target="blank"
                 >
-                  <i className="fas fa-globe"></i> Try
+                  <BsGlobe /> Try
                 </a>
               </div>
             </div>

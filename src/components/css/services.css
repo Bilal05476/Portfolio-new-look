@@ -46,8 +46,7 @@
   align-items: center;
   justify-content: center;
 }
-.services .service-card .icon i{
- font-weight: 400;
+.services .service-card .icon svg{
   font-size: 2rem;
   color: #313131;
 }

@@ -1,6 +1,5 @@
 import "./css/services.css";
-import service from "./serviceData.json";
-import { FaCode, Fa500Px, FaSearchDollar, FaMobile } from "react-icons/fa";
+import service from "./serviceData";
 
 const Services = () => {
   return (
@@ -22,7 +21,7 @@ const Services = () => {
             key={ind}
           >
             <div className="icon">
-              <i className={item.serviceIcon}></i>
+              {item.serviceIcon}
             </div>
             <h4 className="services-heading">{item.serviceName}</h4>
             <i className="services-tagline">{item.serviceTagLine}</i>

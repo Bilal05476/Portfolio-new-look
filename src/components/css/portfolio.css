@@ -63,8 +63,9 @@
 .portfolio-desc {
   font-size: 0.8rem;
 }
-.project-addons .far {
+.check-icon {
   color: var(--themeColor--);
+  font-size: 1.3rem;
 }
 @media (max-width: 992px) {
   .portfolio-project {

@@ -25,7 +25,7 @@ const Pricing = () => {
               data-aos-easing="ease-out-cubic"
               data-aos-duration="2000"
             >
-              <i className="package-icon fas fa-laptop"></i>
+              <FaLaptop className="package-icon" />
               <h4 className="package-name">{pack.packageName}</h4>
               <div className="package-pricing">
                 <strong className="price">${pack.packagePrice}</strong>
@@ -37,7 +37,7 @@ const Pricing = () => {
               {!show && (
                 <div className="package-item">
                   <li style={{ listStyle: "none" }} className="item-name">
-                    <i className="far fa-check"></i> {someDetails}
+                    <BiCheck className="check-icon" /> {someDetails}
                   </li>
                 </div>
               )}
@@ -46,7 +46,7 @@ const Pricing = () => {
                 <div className="package-item" key={ind}>
                   {show && (
                     <li style={{ listStyle: "none" }} className="item-name">
-                      <i className="far fa-check"></i> {item}
+                      <BiCheck className="check-icon" /> {item}
                     </li>
                   )}
                 </div>

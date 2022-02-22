@@ -6,6 +6,7 @@ import {
   BsInstagram,
   BsLinkedin,
   BsArrowUpCircleFill,
+  BsSuitHeartFill,
 } from "react-icons/bs";
 import { MdEmail } from "react-icons/md";
 
@@ -25,45 +26,46 @@ const Footer = () => {
           target="blank"
           href="https://github.com/Bilal05476"
         >
-          <i title="GitHub" className="fab fa-github"></i>
+          <BsGithub className="font-icon" title="GitHub" />
         </a>
         <a
           className="social-link"
           target="blank"
           href="https://www.instagram.com/bilal_ahmed_05/"
         >
-          <i title="Instagram" className="fab fa-instagram"></i>
+          <BsInstagram className="font-icon" title="Instagram" />
         </a>
         <a
           className="social-link"
           target="blank"
           href="https://www.linkedin.com/in/bilal-ahmed-b75125184"
         >
-          <i title="LinkedIn" className="fab fa-linkedin-in"></i>
+          <BsLinkedin className="font-icon" title="LinkedIn" />
         </a>
         <a
           className="social-link"
           target="blank"
           href="https://www.facebook.com/profile.php?id=100007545697355"
         >
-          <i title="Facebook" className="fab fa-facebook"></i>
+          <BsFacebook className="font-icon" title="Facebook" />
         </a>
         <a
           className="social-link"
           target="blank"
           href="mailto:bilalahmed6551@gmail.com"
         >
-          <i title="Email" className="fas fa-envelope"></i>
+          <MdEmail className="font-icon email-icon" title="Email" />
         </a>
         <a className="social-link" href="#top">
-          <i title="Scroll Top" className="far fa-arrow-up"></i>
+          <BsArrowUpCircleFill className="font-icon" title="Scroll To Top" />
         </a>
       </div>
       <div className="right-section text-center">
         <small>
           Copyright &copy; {year},
           <br /> Made with
-          <i className="mx-1 text-danger fas fa-heart"></i>By Bilal Ahmed
+          <BsSuitHeartFill className="mx-1 text-danger" />
+          By Bilal Ahmed
         </small>
       </div>
     </div>

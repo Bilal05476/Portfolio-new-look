@@ -1,7 +1,6 @@
 import "./css/team.css";
 import member from "./teamData";
-import { BsFacebook, BsInstagram, BsLinkedin } from "react-icons/bs";
-import { BsGlobe } from "react-icons/bs";
+import { BsFacebook, BsInstagram, BsLinkedin, BsGlobe } from "react-icons/bs";
 
 const Team = () => {
   return (
@@ -27,17 +26,37 @@ const Team = () => {
             <h4 className="member-name">{mem.memberName}</h4>
             <h4 className="member-designation">{mem.memberDesignation}</h4>
             <div className="member-social-networks">
-              <a className="social-link" target="blank" title="Facebook" href={mem.memberLinks[0]}>
-                <i className="fab fa-facebook"></i>
+              <a
+                className="social-link"
+                target="blank"
+                title="Facebook"
+                href={mem.memberLinks[0]}
+              >
+                <BsFacebook className="font-icon" />
               </a>
-              <a className="social-link" target="blank" title="Instagram" href={mem.memberLinks[1]}>
-                <i className="fab fa-instagram"></i>
+              <a
+                className="social-link"
+                target="blank"
+                title="Instagram"
+                href={mem.memberLinks[1]}
+              >
+                <BsInstagram className="font-icon" />
               </a>
-              <a className="social-link" target="blank" title="LinkedIn" href={mem.memberLinks[2]}>
-                <i className="fab fa-linkedin-in"></i>
+              <a
+                className="social-link"
+                target="blank"
+                title="LinkedIn"
+                href={mem.memberLinks[2]}
+              >
+                <BsLinkedin className="font-icon" />
               </a>
-              <a className="social-link" target="blank" title="Website" href={mem.memberLinks[3]}>
-                <i className="fas fa-globe"></i>
+              <a
+                className="social-link"
+                target="blank"
+                title="Website"
+                href={mem.memberLinks[3]}
+              >
+                <BsGlobe className="font-icon" />
               </a>
             </div>
           </div>
