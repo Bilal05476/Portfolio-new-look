@@ -15,7 +15,6 @@
   font-weight: 600;
   letter-spacing: 0.2rem;
   color: var(--themeColor--);
-
 }
 .skills .header small {
   font-style: italic;
@@ -30,7 +29,6 @@
   color: var(--themeColor--);
   cursor: pointer;
   transition: 0.1s ease-in-out;
-
 }
 .skills-section .skill-content .skill-icon {
   font-size: 3rem;
@@ -38,6 +36,36 @@
 }
 .skills-section .skill-content .skill-name {
   font-size: 1rem;
+}
+.html-icon {
+  color: rgb(253, 113, 62);
+}
+.css-icon {
+  color: rgb(26, 188, 238);
+}
+.js-icon {
+  color: yellow;
+}
+.bootstrap-icon {
+  color: rgb(177, 70, 240);
+}
+.rjs-icon {
+  color: rgb(53, 197, 245);
+}
+.njs-icon {
+  color: limegreen;
+}
+.firebase-icon {
+  color: rgb(255, 218, 51);
+}
+.netlify-icon {
+  color: rgb(3, 177, 177);
+}
+.py-icon {
+  color: rgb(235, 161, 0);
+}
+.mongo-icon {
+  color: lime;
 }
 
 @media (max-width: 992px) {

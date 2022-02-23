@@ -25,43 +25,43 @@ const Skills = () => {
       </div>
       <div className="skills-section row">
         <div className="skill-content col-4 col-md-2 mb-3" data-aos="fade-in">
-          <FaHtml5 className="skill-icon" />
+          <FaHtml5 className="skill-icon html-icon" />
           <h6 className="skill-name">Html5</h6>
         </div>
         <div className="skill-content col-4 col-md-2 mb-3" data-aos="fade-in">
-          <FaCss3Alt className="skill-icon" />
+          <FaCss3Alt className="skill-icon css-icon" />
           <h6 className="skill-name">Css3</h6>
         </div>
         <div className="skill-content col-4 col-md-2 mb-3" data-aos="fade-in">
-          <BsBootstrapFill className="skill-icon" />
+          <BsBootstrapFill className="skill-icon bootstrap-icon" />
           <h6 className="skill-name">Bootstrap</h6>
         </div>
         <div className="skill-content col-4 col-md-2 mb-3" data-aos="fade-in">
-          <SiJavascript className="skill-icon" />
+          <SiJavascript className="skill-icon js-icon" />
           <h6 className="skill-name">JavaScript</h6>
         </div>
         <div className="skill-content col-4 col-md-2 mb-3" data-aos="fade-in">
-          <GrReactjs className="skill-icon" />
+          <GrReactjs className="skill-icon rjs-icon" />
           <h6 className="skill-name">ReactJs</h6>
         </div>
         <div className="skill-content col-4 col-md-2 mb-3" data-aos="fade-in">
-          <FaNodeJs className="skill-icon" />
+          <FaNodeJs className="skill-icon njs-icon" />
           <h6 className="skill-name">NodeJs</h6>
         </div>
         <div className="skill-content col-4 col-md-2 mb-3" data-aos="fade-in">
-          <SiMongodb className="skill-icon" />
+          <SiMongodb className="skill-icon mongo-icon" />
           <h6 className="skill-name">MongoDB</h6>
         </div>
         <div className="skill-content col-4 col-md-2 mb-3" data-aos="fade-in">
-          <SiFirebase className="skill-icon" />
+          <SiFirebase className="skill-icon firebase-icon" />
           <h6 className="skill-name">Firebase</h6>
         </div>
         <div className="skill-content col-4 col-md-2 mb-3" data-aos="fade-in">
-          <SiNetlify className="skill-icon" />
+          <SiNetlify className="skill-icon netlify-icon" />
           <h6 className="skill-name">Netlify</h6>
         </div>
         <div className="skill-content col-4 col-md-2 mb-3" data-aos="fade-in">
-          <SiPython className="skill-icon " />
+          <SiPython className="skill-icon py-icon" />
           <h6 className="skill-name">Python</h6>
         </div>
       </div>
