@@ -32,7 +32,7 @@ const Team = () => {
                 title="Facebook"
                 href={mem.memberLinks[0]}
               >
-                <BsFacebook className="font-icon" />
+                <BsFacebook className="font-icon fb-icon" />
               </a>
               <a
                 className="social-link"
@@ -40,7 +40,7 @@ const Team = () => {
                 title="Instagram"
                 href={mem.memberLinks[1]}
               >
-                <BsInstagram className="font-icon" />
+                <BsInstagram className="font-icon ig-icon" />
               </a>
               <a
                 className="social-link"
@@ -48,7 +48,7 @@ const Team = () => {
                 title="LinkedIn"
                 href={mem.memberLinks[2]}
               >
-                <BsLinkedin className="font-icon" />
+                <BsLinkedin className="font-icon in-icon" />
               </a>
               <a
                 className="social-link"

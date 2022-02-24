@@ -26,28 +26,28 @@ const Footer = () => {
           target="blank"
           href="https://github.com/Bilal05476"
         >
-          <BsGithub className="font-icon" title="GitHub" />
+          <BsGithub className="font-icon github-icon" title="GitHub" />
         </a>
         <a
           className="social-link"
           target="blank"
           href="https://www.instagram.com/bilal_ahmed_05/"
         >
-          <BsInstagram className="font-icon" title="Instagram" />
+          <BsInstagram className="font-icon ig-icon" title="Instagram" />
         </a>
         <a
           className="social-link"
           target="blank"
           href="https://www.linkedin.com/in/bilal-ahmed-b75125184"
         >
-          <BsLinkedin className="font-icon" title="LinkedIn" />
+          <BsLinkedin className="font-icon in-icon" title="LinkedIn" />
         </a>
         <a
           className="social-link"
           target="blank"
           href="https://www.facebook.com/profile.php?id=100007545697355"
         >
-          <BsFacebook className="font-icon" title="Facebook" />
+          <BsFacebook className="font-icon fb-icon" title="Facebook" />
         </a>
         <a
           className="social-link"
