@@ -97,6 +97,13 @@ const Navbar = () => {
                 <a href="#contact" className="my-menu">
                   Contact
                 </a>
+                <a
+                  href="https://bilalthedev.blogspot.com/"
+                  target="blank"
+                  className="my-menu"
+                >
+                  Blog
+                </a>
               </div>
             </div>
           </>
