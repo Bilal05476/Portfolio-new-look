@@ -85,20 +85,16 @@ const Navbar = () => {
                 <a href="#my-portfolio" className="my-menu">
                   Portfolio
                 </a>
-                <a href="#pricing" className="my-menu">
-                  Pricing
-                </a>
+
                 <a href="#my-skills" className="my-menu">
                   Skills
                 </a>
-                <a href="#my-team" className="my-menu">
-                  Team
-                </a>
+
                 <a href="#contact" className="my-menu">
                   Contact
                 </a>
                 <a
-                  href="https://bilalthedev.blogspot.com/"
+                  href="https://bilalthedev.com/"
                   target="blank"
                   className="my-menu"
                 >

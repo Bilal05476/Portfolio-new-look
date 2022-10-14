@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { BiCheck } from "react-icons/bi";
 import { FaTimes } from "react-icons/fa";
 import { BsGlobe } from "react-icons/bs";
-import {AiOutlineCloseCircle} from "react-icons/ai";
+import { AiOutlineCloseCircle } from "react-icons/ai";
 const Portfolio = () => {
   const BestProjects = portfolioProjects.slice(0, 3);
 
@@ -64,8 +64,8 @@ const Portfolio = () => {
           </div>
         ))}
       </div>
-      <NavLink to="all-projects" data-aos="fade-in">
-        <button className="jumbo-button">All Projects</button>
+      <NavLink to="/all-projects" data-aos="fade-in">
+        <button className="jumbo-button all-projects">All Projects</button>
       </NavLink>
     </div>
   );

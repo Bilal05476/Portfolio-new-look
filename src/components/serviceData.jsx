@@ -1,5 +1,5 @@
-import { FaCode, Fa500Px, FaSearchDollar, FaMobile } from "react-icons/fa";
-
+import { FaCode, Fa500Px, FaMobile } from "react-icons/fa";
+// FaSearchDollar
 const serviceData = [
   {
     serviceIcon: <FaCode />,
@@ -15,13 +15,13 @@ const serviceData = [
     serviceDesc:
       "Designers create visual concepts, using computer software or by hand, to communicate ideas that inspire, inform, and attract consumers. They develop the overall layout and production design for applications such as advertisements, brochures, magazines, and reports.",
   },
-  {
-    serviceIcon: <FaSearchDollar />,
-    serviceName: "Social Media Marketing",
-    serviceTagLine: "Outreach your right consumers",
-    serviceDesc:
-      "Social media marketing is the use of social media platforms to connect with your audience to build your brand, increase sales, and drive website traffic. This involves publishing great content on social profiles, listening to and engaging your followers, analysize result, and running compaigns.",
-  },
+  // {
+  //   serviceIcon: <FaSearchDollar />,
+  //   serviceName: "Social Media Marketing",
+  //   serviceTagLine: "Outreach your right consumers",
+  //   serviceDesc:
+  //     "Social media marketing is the use of social media platforms to connect with your audience to build your brand, increase sales, and drive website traffic. This involves publishing great content on social profiles, listening to and engaging your followers, analysize result, and running compaigns.",
+  // },
   {
     serviceIcon: <FaMobile />,
     serviceName: "Mobile Application",

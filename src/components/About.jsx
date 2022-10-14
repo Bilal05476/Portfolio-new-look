@@ -84,9 +84,9 @@ const About = () => {
           <img src={ex} alt="about-me" className="about-img" />
         </div>
 
-        <div className="about-content-last offset-3 offset-md-1 col-7" data-aos="fade-in">
+        {/* <div className="about-content-last offset-3 offset-md-1 col-7" data-aos="fade-in">
           <div className="about-text">Be Part of My Story!</div>
-        </div>
+        </div> */}
       </div>
     </div>
   );

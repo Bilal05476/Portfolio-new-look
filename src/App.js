@@ -6,11 +6,9 @@ import Navbar from "./components/Navbar";
 import Portfolio from "./components/Portfolio";
 import Services from "./components/Services";
 import Skills from "./components/Skills";
-import Team from "./components/Team";
 import AllProjects from "./components/AllProjects";
 
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Pricing from "./components/Pricing";
 
 const App = () => {
   return (
@@ -22,10 +20,8 @@ const App = () => {
           <About />
           <Services />
           <Portfolio />
-          <Pricing />
           <Skills />
-          <Team />
-        <Contact />
+          <Contact />
         </Route>
         <Route exact path="/all-projects">
           <AllProjects />

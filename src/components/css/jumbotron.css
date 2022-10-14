@@ -57,7 +57,10 @@
   cursor: pointer;
   border: 2px solid var(--themeColor--);
 }
-
+.jumbo-button.all-projects {
+  border: 2px solid #fff;
+  color: #fff;
+}
 .jumbo-button:hover,
 .contact-set .contact-button button:hover {
   transform: translateY(2px);
@@ -67,6 +70,11 @@
   border-bottom-right-radius: 0px;
   border-top-right-radius: 10px;
   border-bottom-left-radius: 10px;
+}
+
+.jumbo-button.all-projects:hover {
+  background-color: #fff;
+  color: black;
 }
 
 @media (max-width: 992px) {
