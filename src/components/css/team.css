@@ -48,30 +48,6 @@
   margin: 0.2rem 0.3rem;
 }
 
-.social-link .font-icon {
-  transition: 0.2s ease-in-out;
-  font-size: 1.5rem;
-}
-.social-link .email-icon {
-  font-size: 1.8rem;
-}
-
-.social-link .font-icon.ig-icon:hover {
-  color: #d6249f;
-}
-.social-link .font-icon.fb-icon:hover {
-  color: #5584e2;
-}
-.social-link .font-icon.in-icon:hover {
-  color: #3b8ff5;
-}
-.social-link .font-icon:hover,
-.social-link .font-icon.github-icon:hover {
-  color: var(--themeColor--);
-}
-.social-link .font-icon.email-icon:hover {
-  color: #db4437;
-}
 .member-content .member-img {
   width: 150px;
   height: 150px;
